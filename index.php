@@ -228,29 +228,44 @@ $bowlers = getBowlerData();
                     <template x-for="(row, index) in getComparisonRows()" :key="index">
                         <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-2 flex items-center justify-between text-xs">
                             <!-- Team A Bowler -->
-                            <div class="w-[45%] text-left overflow-hidden">
-                                <div class="font-semibold truncate" x-text="row.a ? cleanName(row.a.BowlerName) : '-'"></div>
-                                <div class="flex justify-between mt-1 text-gray-500">
-                                    <span x-text="row.a ? 'Avg: ' + row.a.Average : ''"></span>
-                                </div>
+                            <div class="w-[45%] text-left overflow-hidden flex items-center space-x-2">
+                                <template x-if="row.a">
+                                    <div class="flex items-center space-x-2 w-full">
+                                        <img :src="getBowlerImage(row.a.BowlerID)" class="w-8 h-8 rounded-full object-cover flex-shrink-0" alt="Avatar">
+                                        <div class="min-w-0 flex-1">
+                                            <div class="font-semibold truncate" x-text="cleanName(row.a.BowlerName)"></div>
+                                            <div class="text-gray-500" x-text="'Avg: ' + row.a.Average"></div>
+                                        </div>
+                                    </div>
+                                </template>
+                                <template x-if="!row.a">
+                                    <div class="w-full text-center text-gray-400">-</div>
+                                </template>
                             </div>
 
                             <!-- Rank -->
                             <div class="w-[10%] text-center font-mono text-gray-400 font-bold" x-text="index + 1"></div>
 
                             <!-- Team B Bowler -->
-                            <div class="w-[45%] text-right overflow-hidden">
+                            <div class="w-[45%] text-right overflow-hidden flex items-center justify-end space-x-2">
                                 <template x-if="compareTeamB">
-                                    <div>
-                                        <div class="font-semibold truncate" x-text="row.b ? cleanName(row.b.BowlerName) : '-'"></div>
-                                        <div class="flex justify-between mt-1 text-gray-500">
-                                            <span></span>
-                                            <span x-text="row.b ? 'Avg: ' + row.b.Average : ''"></span>
-                                        </div>
+                                    <div class="flex items-center justify-end space-x-2 w-full">
+                                        <template x-if="row.b">
+                                            <div class="flex items-center justify-end space-x-2 w-full">
+                                                <div class="min-w-0 flex-1 text-right">
+                                                    <div class="font-semibold truncate" x-text="cleanName(row.b.BowlerName)"></div>
+                                                    <div class="text-gray-500" x-text="'Avg: ' + row.b.Average"></div>
+                                                </div>
+                                                <img :src="getBowlerImage(row.b.BowlerID)" class="w-8 h-8 rounded-full object-cover flex-shrink-0" alt="Avatar">
+                                            </div>
+                                        </template>
+                                        <template x-if="!row.b">
+                                            <div class="w-full text-center text-gray-400">-</div>
+                                        </template>
                                     </div>
                                 </template>
                                 <template x-if="!compareTeamB && row.a">
-                                     <div class="text-gray-500 text-[10px] text-right">
+                                     <div class="text-gray-500 text-[10px] text-right w-full">
                                          <div x-text="'Hi: ' + row.a.HighScratchGame"></div>
                                          <div x-text="'Ser: ' + row.a.HighScratchSeries"></div>
                                      </div>
@@ -366,7 +381,10 @@ $bowlers = getBowlerData();
             <div class="flex-1 overflow-y-auto p-4 space-y-2">
                 <template x-for="bowler in selectedTeamBowlers" :key="bowler.BowlerID">
                     <div @click="openBowler(bowler); showTeamModal = false" class="flex justify-between items-center p-4 bg-gray-50 dark:bg-ios-card rounded-xl border border-gray-100 dark:border-ios-separator cursor-pointer active:scale-[0.98] transition-transform">
-                        <span class="font-medium" x-text="cleanName(bowler.BowlerName)"></span>
+                        <div class="flex items-center">
+                            <img :src="getBowlerImage(bowler.BowlerID)" class="w-10 h-10 rounded-full mr-3 object-cover border border-gray-200 dark:border-gray-600" alt="Avatar">
+                            <span class="font-medium" x-text="cleanName(bowler.BowlerName)"></span>
+                        </div>
                         <div class="flex flex-col items-end">
                             <span class="font-bold text-ios-blue text-lg" x-text="bowler.Average"></span>
                             <span class="text-[10px] text-gray-400 uppercase">Avg</span>
@@ -456,9 +474,7 @@ $bowlers = getBowlerData();
                 },
 
                 get selectedTeamBowlers() {
-                    return this.bowlers
-                        .filter(b => b.TeamName === this.selectedTeamName)
-                        .sort((a, b) => parseFloat(b.Average || 0) - parseFloat(a.Average || 0));
+                    return this.getAllTeamBowlers(this.selectedTeamName);
                 },
 
                 // Compare Helper functions
@@ -469,19 +485,23 @@ $bowlers = getBowlerData();
                     return Math.round(sum / top6.length);
                 },
 
-                getTop6(teamName) {
+                getAllTeamBowlers(teamName) {
                     if (!teamName) return [];
                     return this.bowlers
                         .filter(b => b.TeamName === teamName)
-                        .sort((a, b) => parseFloat(b.Average || 0) - parseFloat(a.Average || 0))
-                        .slice(0, 6);
+                        .sort((a, b) => parseFloat(b.Average || 0) - parseFloat(a.Average || 0));
+                },
+
+                getTop6(teamName) {
+                    return this.getAllTeamBowlers(teamName).slice(0, 6);
                 },
 
                 getComparisonRows() {
-                    const teamA = this.getTop6(this.compareTeamA);
-                    const teamB = this.getTop6(this.compareTeamB);
+                    const teamA = this.getAllTeamBowlers(this.compareTeamA);
+                    const teamB = this.getAllTeamBowlers(this.compareTeamB);
                     const rows = [];
-                    for (let i = 0; i < 6; i++) {
+                    const maxCount = Math.max(teamA.length, teamB.length);
+                    for (let i = 0; i < maxCount; i++) {
                         rows.push({ a: teamA[i], b: teamB[i] });
                     }
                     return rows;

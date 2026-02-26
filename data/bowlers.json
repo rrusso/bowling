@@ -370,9 +370,9 @@
                 "PointsWonDec": 2
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 2,
+                "TeamName": "Catholic",
+                "TeamNameURLFormated": "catholic",
                 "BowlerID": 233,
                 "BowlerName": "Babin, Ben (2)",
                 "BowlerNameURLFormated": "babin-ben-2",
@@ -389,7 +389,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 2,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -1114,9 +1114,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 18,
+                "TeamName": "Lutcher",
+                "TeamNameURLFormated": "lutcher",
                 "BowlerID": 293,
                 "BowlerName": "Brown, Braiden (18)",
                 "BowlerNameURLFormated": "brown-braiden-18",
@@ -1133,7 +1133,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 18,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -1234,9 +1234,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 18,
+                "TeamName": "Lutcher",
+                "TeamNameURLFormated": "lutcher",
                 "BowlerID": 289,
                 "BowlerName": "Burnett, Kaniya (18)",
                 "BowlerNameURLFormated": "burnett-kaniya-18",
@@ -1253,7 +1253,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 18,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -1306,9 +1306,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 11,
+                "TeamName": "St Amant",
+                "TeamNameURLFormated": "st-amant",
                 "BowlerID": 170,
                 "BowlerName": "Cagnolatti, Chase (11)",
                 "BowlerNameURLFormated": "cagnolatti-chase-11",
@@ -1325,7 +1325,7 @@
                 "MostImproved": 32.64,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 11,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -1378,9 +1378,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 33,
+                "TeamName": "St Joseph Academy",
+                "TeamNameURLFormated": "st-joseph-academy",
                 "BowlerID": 328,
                 "BowlerName": "Carter, Clarke (33)",
                 "BowlerNameURLFormated": "carter-clarke-33",
@@ -1397,7 +1397,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 33,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -1786,9 +1786,9 @@
                 "PointsWonDec": 2
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 2,
+                "TeamName": "Catholic",
+                "TeamNameURLFormated": "catholic",
                 "BowlerID": 217,
                 "BowlerName": "Dhillon, Arjun (2)",
                 "BowlerNameURLFormated": "dhillon-arjun-2",
@@ -1805,7 +1805,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 2,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -1978,9 +1978,9 @@
                 "PointsWonDec": 2
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 11,
+                "TeamName": "St Amant",
+                "TeamNameURLFormated": "st-amant",
                 "BowlerID": 168,
                 "BowlerName": "Duhon, Alex (11)",
                 "BowlerNameURLFormated": "duhon-alex-11",
@@ -1997,7 +1997,7 @@
                 "MostImproved": -2.1,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 11,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -2050,9 +2050,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 24,
+                "TeamName": "French Settlement",
+                "TeamNameURLFormated": "french-settlement",
                 "BowlerID": 278,
                 "BowlerName": "Duplessis, Brandon (24)",
                 "BowlerNameURLFormated": "duplessis-brandon-24",
@@ -2069,7 +2069,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 24,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -2122,9 +2122,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 24,
+                "TeamName": "French Settlement",
+                "TeamNameURLFormated": "french-settlement",
                 "BowlerID": 276,
                 "BowlerName": "Edmonston, Holt (24)",
                 "BowlerNameURLFormated": "edmonston-holt-24",
@@ -2141,7 +2141,7 @@
                 "MostImproved": -1.2,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 24,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -2218,9 +2218,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 33,
+                "TeamName": "St Joseph Academy",
+                "TeamNameURLFormated": "st-joseph-academy",
                 "BowlerID": 330,
                 "BowlerName": "Fasullo, Lucy (33)",
                 "BowlerNameURLFormated": "fasullo-lucy-33",
@@ -2237,7 +2237,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 33,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -2434,9 +2434,9 @@
                 "PointsWonDec": 2
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 24,
+                "TeamName": "French Settlement",
+                "TeamNameURLFormated": "french-settlement",
                 "BowlerID": 279,
                 "BowlerName": "Fontenot, Chayce (24)",
                 "BowlerNameURLFormated": "fontenot-chayce-24",
@@ -2453,7 +2453,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 24,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -2698,9 +2698,9 @@
                 "PointsWonDec": 2
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 11,
+                "TeamName": "St Amant",
+                "TeamNameURLFormated": "st-amant",
                 "BowlerID": 153,
                 "BowlerName": "Gisclair, Austin (11)",
                 "BowlerNameURLFormated": "gisclair-austin-11",
@@ -2717,14 +2717,14 @@
                 "MostImproved": -16.71,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 11,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 23,
+                "TeamName": "Donaldsonville",
+                "TeamNameURLFormated": "donaldsonville",
                 "BowlerID": 50,
                 "BowlerName": "Green, Decolby (23)",
                 "BowlerNameURLFormated": "green-decolby-23",
@@ -2741,7 +2741,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 23,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -2866,9 +2866,9 @@
                 "PointsWonDec": 2
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 2,
+                "TeamName": "Catholic",
+                "TeamNameURLFormated": "catholic",
                 "BowlerID": 228,
                 "BowlerName": "Guillory, Cade (2)",
                 "BowlerNameURLFormated": "guillory-cade-2",
@@ -2885,7 +2885,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 2,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -3058,9 +3058,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 2,
+                "TeamName": "Catholic",
+                "TeamNameURLFormated": "catholic",
                 "BowlerID": 229,
                 "BowlerName": "Harvey, Reece (2)",
                 "BowlerNameURLFormated": "harvey-reece-2",
@@ -3077,7 +3077,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 2,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -3346,9 +3346,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 23,
+                "TeamName": "Donaldsonville",
+                "TeamNameURLFormated": "donaldsonville",
                 "BowlerID": 43,
                 "BowlerName": "Jackson, Jer'Mea (23)",
                 "BowlerNameURLFormated": "jackson-jermea-23",
@@ -3365,7 +3365,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 23,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -3634,9 +3634,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 18,
+                "TeamName": "Lutcher",
+                "TeamNameURLFormated": "lutcher",
                 "BowlerID": 288,
                 "BowlerName": "Joseph, Nevayah (18)",
                 "BowlerNameURLFormated": "joseph-nevayah-18",
@@ -3653,7 +3653,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 18,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -3946,9 +3946,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 11,
+                "TeamName": "St Amant",
+                "TeamNameURLFormated": "st-amant",
                 "BowlerID": 169,
                 "BowlerName": "Kirby, Ashton (11)",
                 "BowlerNameURLFormated": "kirby-ashton-11",
@@ -3965,7 +3965,7 @@
                 "MostImproved": -14.44,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 11,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -4186,9 +4186,9 @@
                 "PointsWonDec": 2
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 2,
+                "TeamName": "Catholic",
+                "TeamNameURLFormated": "catholic",
                 "BowlerID": 230,
                 "BowlerName": "Langlois, Brett (2)",
                 "BowlerNameURLFormated": "langlois-brett-2",
@@ -4205,7 +4205,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 2,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -4618,9 +4618,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 24,
+                "TeamName": "French Settlement",
+                "TeamNameURLFormated": "french-settlement",
                 "BowlerID": 270,
                 "BowlerName": "Martin, Luke (24)",
                 "BowlerNameURLFormated": "martin-luke-24",
@@ -4637,7 +4637,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 24,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -4858,9 +4858,9 @@
                 "PointsWonDec": 2
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 18,
+                "TeamName": "Lutcher",
+                "TeamNameURLFormated": "lutcher",
                 "BowlerID": 290,
                 "BowlerName": "Millet, Mariah (18)",
                 "BowlerNameURLFormated": "millet-mariah-18",
@@ -4877,14 +4877,14 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 18,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 33,
+                "TeamName": "St Joseph Academy",
+                "TeamNameURLFormated": "st-joseph-academy",
                 "BowlerID": 320,
                 "BowlerName": "Milligan, Molly (33)",
                 "BowlerNameURLFormated": "milligan-molly-33",
@@ -4901,7 +4901,7 @@
                 "MostImproved": 11.11,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 33,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -5194,9 +5194,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 16,
+                "TeamName": "St Michael",
+                "TeamNameURLFormated": "st-michael",
                 "BowlerID": 337,
                 "BowlerName": "Musemeche, Connor (16)",
                 "BowlerNameURLFormated": "musemeche-connor-16",
@@ -5213,7 +5213,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 16,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -5338,9 +5338,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 16,
+                "TeamName": "St Michael",
+                "TeamNameURLFormated": "st-michael",
                 "BowlerID": 341,
                 "BowlerName": "Nguyen, Don (16)",
                 "BowlerNameURLFormated": "nguyen-don-16",
@@ -5357,7 +5357,7 @@
                 "MostImproved": 4.67,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 16,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -5434,9 +5434,9 @@
                 "PointsWonDec": 2
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 2,
+                "TeamName": "Catholic",
+                "TeamNameURLFormated": "catholic",
                 "BowlerID": 235,
                 "BowlerName": "O'Brien, Quinn (2)",
                 "BowlerNameURLFormated": "obrien-quinn-2",
@@ -5453,7 +5453,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 2,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -5578,9 +5578,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 33,
+                "TeamName": "St Joseph Academy",
+                "TeamNameURLFormated": "st-joseph-academy",
                 "BowlerID": 332,
                 "BowlerName": "Ourso, Adlee (33)",
                 "BowlerNameURLFormated": "ourso-adlee-33",
@@ -5597,7 +5597,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 33,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -5962,9 +5962,9 @@
                 "PointsWonDec": 1
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 2,
+                "TeamName": "Catholic",
+                "TeamNameURLFormated": "catholic",
                 "BowlerID": 236,
                 "BowlerName": "Ragas, Packard (2)",
                 "BowlerNameURLFormated": "ragas-packard-2",
@@ -5981,7 +5981,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 2,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -6226,9 +6226,9 @@
                 "PointsWonDec": 3
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 2,
+                "TeamName": "Catholic",
+                "TeamNameURLFormated": "catholic",
                 "BowlerID": 226,
                 "BowlerName": "Roberson, Alex (2)",
                 "BowlerNameURLFormated": "roberson-alex-2",
@@ -6245,7 +6245,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 2,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -6826,9 +6826,9 @@
                 "PointsWonDec": 1
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 2,
+                "TeamName": "Catholic",
+                "TeamNameURLFormated": "catholic",
                 "BowlerID": 221,
                 "BowlerName": "Spreen, Ernie (2)",
                 "BowlerNameURLFormated": "spreen-ernie-2",
@@ -6845,14 +6845,14 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 2,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 2,
+                "TeamName": "Catholic",
+                "TeamNameURLFormated": "catholic",
                 "BowlerID": 240,
                 "BowlerName": "Spreen, Michael (2)",
                 "BowlerNameURLFormated": "spreen-michael-2",
@@ -6869,7 +6869,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 2,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -7330,9 +7330,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 33,
+                "TeamName": "St Joseph Academy",
+                "TeamNameURLFormated": "st-joseph-academy",
                 "BowlerID": 333,
                 "BowlerName": "Tullier, Emma (33)",
                 "BowlerNameURLFormated": "tullier-emma-33",
@@ -7349,7 +7349,7 @@
                 "MostImproved": -4,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 33,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -7498,9 +7498,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 2,
+                "TeamName": "Catholic",
+                "TeamNameURLFormated": "catholic",
                 "BowlerID": 222,
                 "BowlerName": "Vincent, James (2)",
                 "BowlerNameURLFormated": "vincent-james-2",
@@ -7517,7 +7517,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 2,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },
@@ -7570,9 +7570,9 @@
                 "PointsWonDec": 0
             },
             {
-                "TeamID": 0,
-                "TeamName": "",
-                "TeamNameURLFormated": "",
+                "TeamID": 16,
+                "TeamName": "St Michael",
+                "TeamNameURLFormated": "st-michael",
                 "BowlerID": 335,
                 "BowlerName": "Walters, Jaidyn (16)",
                 "BowlerNameURLFormated": "walters-jaidyn-16",
@@ -7589,7 +7589,7 @@
                 "MostImproved": 0,
                 "BowlerPosition": 0,
                 "BowlerStatus": "T",
-                "TeamNum": 0,
+                "TeamNum": 16,
                 "EnteringAverage": 0,
                 "PointsWonDec": 0
             },

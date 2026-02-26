@@ -93,12 +93,12 @@ $bowlers = getBowlerData();
                     <div @click="openBowler(top3[1])" class="flex flex-col items-center w-1/3 cursor-pointer transform hover:scale-105 transition duration-200">
                         <div class="relative mb-2">
                              <div class="w-20 h-20 rounded-full border-2 border-ios-silver bg-gray-200 dark:bg-gray-800 overflow-hidden shadow-md">
-                                <img :src="'https://i.pravatar.cc/300?u=' + top3[1].BowlerID" class="w-full h-full object-cover" alt="Avatar">
+                                <img :src="getBowlerImage(top3[1].BowlerID)" class="w-full h-full object-cover" alt="Avatar">
                              </div>
                              <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-ios-silver text-black text-[10px] font-bold px-2 py-0.5 rounded-full shadow-sm z-10">#2</div>
                         </div>
                         <h3 class="text-xs font-bold text-center truncate w-full mt-1" x-text="cleanName(top3[1].BowlerName)"></h3>
-                        <p class="text-[10px] text-gray-500 dark:text-gray-400 truncate w-full text-center" x-text="top3[1].TeamName"></p>
+                        <p @click.stop="openTeamDetail(top3[1].TeamName)" class="text-[10px] text-gray-500 dark:text-gray-400 truncate w-full text-center hover:underline cursor-pointer" x-text="top3[1].TeamName"></p>
                         <p class="text-sm font-black text-ios-blue" x-text="top3[1].Average"></p>
                     </div>
                 </template>
@@ -108,12 +108,12 @@ $bowlers = getBowlerData();
                     <div @click="openBowler(top3[0])" class="flex flex-col items-center w-1/3 cursor-pointer transform hover:scale-105 transition duration-200 z-10 -mb-2">
                          <div class="relative mb-2">
                              <div class="w-24 h-24 rounded-full border-4 border-ios-gold bg-gray-200 dark:bg-gray-800 overflow-hidden shadow-lg shadow-ios-gold/20">
-                                <img :src="'https://i.pravatar.cc/300?u=' + top3[0].BowlerID" class="w-full h-full object-cover" alt="Avatar">
+                                <img :src="getBowlerImage(top3[0].BowlerID)" class="w-full h-full object-cover" alt="Avatar">
                              </div>
                              <div class="absolute -bottom-3 left-1/2 transform -translate-x-1/2 bg-ios-gold text-black text-xs font-bold px-3 py-0.5 rounded-full shadow-sm z-10">#1</div>
                         </div>
                         <h3 class="text-sm font-bold text-center truncate w-full mt-2" x-text="cleanName(top3[0].BowlerName)"></h3>
-                        <p class="text-[10px] text-gray-500 dark:text-gray-400 truncate w-full text-center" x-text="top3[0].TeamName"></p>
+                        <p @click.stop="openTeamDetail(top3[0].TeamName)" class="text-[10px] text-gray-500 dark:text-gray-400 truncate w-full text-center hover:underline cursor-pointer" x-text="top3[0].TeamName"></p>
                         <p class="text-lg font-black text-ios-blue" x-text="top3[0].Average"></p>
                     </div>
                 </template>
@@ -123,12 +123,12 @@ $bowlers = getBowlerData();
                     <div @click="openBowler(top3[2])" class="flex flex-col items-center w-1/3 cursor-pointer transform hover:scale-105 transition duration-200">
                         <div class="relative mb-2">
                              <div class="w-20 h-20 rounded-full border-2 border-ios-bronze bg-gray-200 dark:bg-gray-800 overflow-hidden shadow-md">
-                                <img :src="'https://i.pravatar.cc/300?u=' + top3[2].BowlerID" class="w-full h-full object-cover" alt="Avatar">
+                                <img :src="getBowlerImage(top3[2].BowlerID)" class="w-full h-full object-cover" alt="Avatar">
                              </div>
                              <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-ios-bronze text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-sm z-10">#3</div>
                         </div>
                         <h3 class="text-xs font-bold text-center truncate w-full mt-1" x-text="cleanName(top3[2].BowlerName)"></h3>
-                        <p class="text-[10px] text-gray-500 dark:text-gray-400 truncate w-full text-center" x-text="top3[2].TeamName"></p>
+                        <p @click.stop="openTeamDetail(top3[2].TeamName)" class="text-[10px] text-gray-500 dark:text-gray-400 truncate w-full text-center hover:underline cursor-pointer" x-text="top3[2].TeamName"></p>
                         <p class="text-sm font-black text-ios-blue" x-text="top3[2].Average"></p>
                     </div>
                 </template>
@@ -143,13 +143,13 @@ $bowlers = getBowlerData();
 
                         <!-- Avatar -->
                         <div class="w-12 h-12 rounded-full bg-gray-100 dark:bg-gray-700 overflow-hidden mr-3 border border-gray-200 dark:border-gray-600">
-                            <img :src="'https://i.pravatar.cc/150?u=' + bowler.BowlerID" class="w-full h-full object-cover" loading="lazy" alt="Avatar">
+                            <img :src="getBowlerImage(bowler.BowlerID)" class="w-full h-full object-cover" loading="lazy" alt="Avatar">
                         </div>
 
                         <!-- Info -->
                         <div class="flex-1 min-w-0">
                             <h3 class="font-semibold text-black dark:text-white truncate" x-text="cleanName(bowler.BowlerName)"></h3>
-                            <p class="text-xs text-gray-500 truncate" x-text="bowler.TeamName"></p>
+                            <p @click.stop="openTeamDetail(bowler.TeamName)" class="text-xs text-gray-500 truncate hover:underline cursor-pointer" x-text="bowler.TeamName"></p>
                         </div>
 
                         <!-- Average -->
@@ -306,7 +306,7 @@ $bowlers = getBowlerData();
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                         </button>
                         <h2 class="text-2xl font-bold text-white leading-none mb-1" x-text="cleanName(selectedBowler.BowlerName)"></h2>
-                        <p class="text-white/80 text-sm font-medium" x-text="selectedBowler.TeamName"></p>
+                        <p @click="openTeamDetail(selectedBowler.TeamName); selectedBowler = null" class="text-white/80 text-sm font-medium hover:underline cursor-pointer" x-text="selectedBowler.TeamName"></p>
                     </div>
 
                     <!-- Stats Grid -->
@@ -485,6 +485,12 @@ $bowlers = getBowlerData();
                         rows.push({ a: teamA[i], b: teamB[i] });
                     }
                     return rows;
+                },
+
+                getBowlerImage(id) {
+                    if (!id) return 'assets/balls/1.jpg';
+                    const num = (parseInt(id) % 417) + 1;
+                    return `assets/balls/${num}.jpg`;
                 }
             }));
         });

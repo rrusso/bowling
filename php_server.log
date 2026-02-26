@@ -1,0 +1,301 @@
+[Thu Feb 26 19:53:33 2026] PHP 8.3.6 Development Server (http://localhost:8080) started
+[Thu Feb 26 19:54:12 2026] [::1]:40644 Accepted
+[Thu Feb 26 19:54:12 2026] [::1]:40644 [200]: GET /
+[Thu Feb 26 19:54:12 2026] [::1]:40644 Closing
+[Thu Feb 26 19:54:12 2026] [::1]:40648 Accepted
+[Thu Feb 26 19:54:12 2026] [::1]:40648 [200]: GET /assets/StrikeStats.png
+[Thu Feb 26 19:54:12 2026] [::1]:40648 Closing
+[Thu Feb 26 19:54:13 2026] [::1]:40652 Accepted
+[Thu Feb 26 19:54:13 2026] [::1]:40660 Accepted
+[Thu Feb 26 19:54:13 2026] [::1]:40672 Accepted
+[Thu Feb 26 19:54:13 2026] [::1]:40652 [200]: GET /assets/balls/267.jpg
+[Thu Feb 26 19:54:13 2026] [::1]:40660 [200]: GET /assets/balls/171.jpg
+[Thu Feb 26 19:54:13 2026] [::1]:40672 [200]: GET /assets/balls/250.jpg
+[Thu Feb 26 19:54:13 2026] [::1]:40652 Closing
+[Thu Feb 26 19:54:13 2026] [::1]:40660 Closing
+[Thu Feb 26 19:54:13 2026] [::1]:40672 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40684 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40692 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40706 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40722 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40730 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40734 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40684 [200]: GET /assets/balls/322.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40692 [200]: GET /assets/balls/319.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40684 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40692 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40706 [200]: GET /assets/balls/320.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40706 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40722 [200]: GET /assets/balls/240.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40730 [200]: GET /assets/balls/252.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40734 [200]: GET /assets/balls/130.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40742 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40722 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40752 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40754 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40730 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40734 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40756 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40752 [200]: GET /assets/balls/258.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40754 [200]: GET /assets/balls/348.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40742 [200]: GET /assets/balls/356.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40762 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40756 [200]: GET /assets/balls/226.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40774 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40762 [200]: GET /assets/balls/225.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40752 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40754 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40742 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40774 [200]: GET /assets/balls/169.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40756 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40762 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40774 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40782 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40796 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40798 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40802 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40808 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40816 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40782 [200]: GET /assets/balls/255.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40796 [200]: GET /assets/balls/238.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40798 [200]: GET /assets/balls/105.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40802 [200]: GET /assets/balls/251.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40808 [200]: GET /assets/balls/249.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40816 [200]: GET /assets/balls/187.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40782 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40796 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40798 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40802 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40808 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40816 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40832 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40840 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40856 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40870 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40886 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40900 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40832 [200]: GET /assets/balls/189.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40840 [200]: GET /assets/balls/207.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40856 [200]: GET /assets/balls/219.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40870 [200]: GET /assets/balls/347.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40886 [200]: GET /assets/balls/233.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40900 [200]: GET /assets/balls/181.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40832 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40840 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40856 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40870 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40886 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40900 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40902 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40910 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40926 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40936 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40938 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40954 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40902 [200]: GET /assets/balls/321.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40902 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40910 [200]: GET /assets/balls/129.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40910 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40926 [200]: GET /assets/balls/366.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40926 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40936 [200]: GET /assets/balls/141.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40936 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40938 [200]: GET /assets/balls/131.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40938 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40954 [200]: GET /assets/balls/188.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40954 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40968 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40972 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40980 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40992 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:41004 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:41018 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:40968 [200]: GET /assets/balls/102.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40968 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40972 [200]: GET /assets/balls/180.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40972 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40980 [200]: GET /assets/balls/220.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40980 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:40992 [200]: GET /assets/balls/253.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:40992 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:41004 [200]: GET /assets/balls/239.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:41004 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:41018 [200]: GET /assets/balls/208.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:41018 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:41020 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:41030 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:41020 [200]: GET /assets/balls/170.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:41040 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:41030 [200]: GET /assets/balls/168.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:41048 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:41040 [200]: GET /assets/balls/80.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:41064 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:41020 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:41048 [200]: GET /assets/balls/316.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:41030 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:41064 [200]: GET /assets/balls/89.jpg
+[Thu Feb 26 19:54:14 2026] [::1]:41040 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:41048 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:41064 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:41080 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:41080 [200]: GET /sw.js
+[Thu Feb 26 19:54:14 2026] [::1]:41080 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:41084 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:41090 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:41100 Accepted
+[Thu Feb 26 19:54:14 2026] [::1]:41084 [200]: GET /manifest.json
+[Thu Feb 26 19:54:14 2026] [::1]:41084 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:41090 [200]: GET /assets/logo.png
+[Thu Feb 26 19:54:14 2026] [::1]:41100 [200]: GET /assets/icon-512.png
+[Thu Feb 26 19:54:14 2026] [::1]:41090 Closing
+[Thu Feb 26 19:54:14 2026] [::1]:41100 Closing
+[Thu Feb 26 19:55:21 2026] [::1]:41164 Accepted
+[Thu Feb 26 19:55:21 2026] [::1]:41164 [200]: GET /
+[Thu Feb 26 19:55:21 2026] [::1]:41164 Closing
+[Thu Feb 26 19:55:21 2026] [::1]:41174 Accepted
+[Thu Feb 26 19:55:21 2026] [::1]:41174 [200]: GET /assets/StrikeStats.png
+[Thu Feb 26 19:55:21 2026] [::1]:41174 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41176 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41192 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41176 [200]: GET /assets/balls/267.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41194 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41192 [200]: GET /assets/balls/171.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41194 [200]: GET /assets/balls/250.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41176 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41192 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41194 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41206 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41212 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41216 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41218 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41232 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41246 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41206 [200]: GET /assets/balls/322.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41206 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41212 [200]: GET /assets/balls/319.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41212 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41216 [200]: GET /assets/balls/320.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41216 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41218 [200]: GET /assets/balls/240.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41218 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41232 [200]: GET /assets/balls/252.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41232 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41246 [200]: GET /assets/balls/130.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41246 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41260 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41270 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41286 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41300 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41316 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41328 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41260 [200]: GET /assets/balls/356.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41260 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41338 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41270 [200]: GET /assets/balls/258.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41286 [200]: GET /assets/balls/348.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41300 [200]: GET /assets/balls/226.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41316 [200]: GET /assets/balls/225.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41328 [200]: GET /assets/balls/169.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41338 [200]: GET /assets/balls/255.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41270 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41286 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41300 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41316 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41328 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41338 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41342 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41358 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41368 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41372 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41384 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41386 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41342 [200]: GET /sw.js
+[Thu Feb 26 19:55:22 2026] [::1]:41342 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41358 [200]: GET /assets/balls/238.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41358 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41400 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41368 [200]: GET /assets/balls/105.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41368 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41372 [200]: GET /assets/balls/251.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41372 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41384 [200]: GET /assets/balls/249.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41384 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41408 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41400 [200]: GET /assets/balls/189.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41386 [200]: GET /assets/balls/187.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41412 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41414 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41420 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41400 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41386 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41408 [200]: GET /assets/balls/207.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41408 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41412 [200]: GET /assets/balls/219.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41412 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41414 [200]: GET /assets/balls/347.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41414 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41434 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41446 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41420 [200]: GET /assets/balls/233.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41420 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41452 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41456 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41458 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41434 [200]: GET /manifest.json
+[Thu Feb 26 19:55:22 2026] [::1]:41434 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41468 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41446 [200]: GET /assets/logo.png
+[Thu Feb 26 19:55:22 2026] [::1]:41452 [200]: GET /assets/icon-512.png
+[Thu Feb 26 19:55:22 2026] [::1]:41456 [200]: GET /assets/balls/181.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41458 [200]: GET /assets/balls/321.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41482 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41468 [200]: GET /assets/balls/129.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41482 [200]: GET /assets/balls/366.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41456 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41458 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41468 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41446 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41452 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41482 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41494 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41508 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41524 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41528 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41530 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41494 [200]: GET /assets/balls/141.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41494 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41508 [200]: GET /assets/balls/131.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41508 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41540 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41524 [200]: GET /assets/balls/188.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41524 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41528 [200]: GET /assets/balls/102.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41528 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41530 [200]: GET /assets/balls/180.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41530 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41540 [200]: GET /assets/balls/220.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41540 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41544 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41558 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41564 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41568 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41576 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41544 [200]: GET /assets/balls/253.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41558 [200]: GET /assets/balls/239.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41564 [200]: GET /assets/balls/208.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41568 [200]: GET /assets/balls/170.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41586 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41576 [200]: GET /assets/balls/168.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41586 [200]: GET /assets/balls/80.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41544 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41558 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41564 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41568 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41576 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41586 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41594 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41608 Accepted
+[Thu Feb 26 19:55:22 2026] [::1]:41594 [200]: GET /assets/balls/316.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41594 Closing
+[Thu Feb 26 19:55:22 2026] [::1]:41608 [200]: GET /assets/balls/89.jpg
+[Thu Feb 26 19:55:22 2026] [::1]:41608 Closing

@@ -94,7 +94,7 @@ class Scraper {
                 'season' => $div->getAttribute('data-season'),
                 'weekNum' => $div->getAttribute('data-week'),
                 'page' => 1,
-                'pageSize' => 2000 // Get all records
+                'pageSize' => 20000 // Get all records
             ];
         }
         return null;

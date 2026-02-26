@@ -38,7 +38,7 @@ php -S localhost:8000
 
 Then visit `http://localhost:8000`.
 
-### 3. Automated Hourly Scrape
+### 3. Automated Hourly scrape
 
 To keep the data updated hourly, set up a cron job.
 

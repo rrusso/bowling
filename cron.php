@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__ . '/src/Scraper.php';
+require_once __DIR__ . '/src/scraper.php';
 
 $scraper = new Scraper();
 if ($scraper->run()) {

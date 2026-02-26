@@ -33,7 +33,9 @@ $bowlers = getBowlerData();
                             subtext: '#8e8e93',
                             gold: '#ffd700',
                             silver: '#c0c0c0',
-                            bronze: '#cd7f32'
+                            bronze: '#cd7f32',
+                            green: '#34c759',
+                            red: '#ff3b30'
                         }
                     },
                     fontFamily: {
@@ -71,7 +73,7 @@ $bowlers = getBowlerData();
                 </div>
              </div>
              <!-- Search Bar -->
-             <div class="relative">
+             <div x-show="currentTab === 'bowlers'" class="relative" x-transition>
                  <input type="text" x-model="searchQuery" placeholder="Search bowlers or schools..."
                         class="w-full bg-gray-100 dark:bg-gray-800 text-black dark:text-white rounded-lg pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ios-blue transition-all">
                  <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -226,7 +228,7 @@ $bowlers = getBowlerData();
 
                 <div class="space-y-3">
                     <template x-for="(row, index) in getComparisonRows()" :key="index">
-                        <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-2 flex items-center justify-between text-xs">
+                        <div @click="openComparison(row)" class="bg-gray-50 dark:bg-gray-800 rounded-lg p-2 flex items-center justify-between text-xs cursor-pointer active:scale-[0.98] transition-transform">
                             <!-- Team A Bowler -->
                             <div class="w-[45%] text-left overflow-hidden flex items-center space-x-2">
                                 <template x-if="row.a">
@@ -352,6 +354,116 @@ $bowlers = getBowlerData();
         </div>
     </div>
 
+    <!-- Head-to-Head Comparison Modal -->
+    <div x-show="showComparisonModal"
+         class="fixed inset-0 z-[70] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm"
+         x-transition.opacity
+         style="display: none;">
+        <div class="bg-white dark:bg-ios-card w-full max-w-lg rounded-2xl shadow-2xl overflow-hidden transform transition-all border border-gray-100 dark:border-ios-separator"
+             @click.away="showComparisonModal = false"
+             x-transition:enter="transition ease-out duration-300"
+             x-transition:enter-start="opacity-0 scale-90"
+             x-transition:enter-end="opacity-100 scale-100"
+             x-transition:leave="transition ease-in duration-200"
+             x-transition:leave-start="opacity-100 scale-100"
+             x-transition:leave-end="opacity-0 scale-90">
+
+             <template x-if="comparisonRow">
+                 <div class="flex flex-col h-full max-h-[90vh]">
+                     <!-- Header -->
+                     <div class="bg-gray-100 dark:bg-gray-900 p-4 border-b border-gray-200 dark:border-ios-separator flex justify-between items-center">
+                         <h3 class="font-bold text-lg dark:text-white">Head-to-Head</h3>
+                         <button @click="showComparisonModal = false" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        </button>
+                     </div>
+
+                     <div class="flex flex-1 overflow-y-auto">
+                         <!-- Left Side (Team A) -->
+                         <div class="flex-1 p-4 border-r border-gray-100 dark:border-ios-separator flex flex-col items-center">
+                             <template x-if="comparisonRow.a">
+                                 <div class="flex flex-col items-center w-full text-center">
+                                     <img :src="getBowlerImage(comparisonRow.a.BowlerID)" class="w-20 h-20 rounded-full border-4 border-ios-blue shadow-lg object-cover mb-3">
+                                     <h4 class="font-bold text-sm leading-tight mb-1" x-text="cleanName(comparisonRow.a.BowlerName)"></h4>
+                                     <p class="text-xs text-gray-500 mb-6" x-text="comparisonRow.a.TeamName"></p>
+
+                                     <!-- Stats A -->
+                                     <div class="space-y-4 w-full">
+                                         <div class="bg-gray-50 dark:bg-gray-800 p-2 rounded-lg">
+                                             <div class="text-xs text-gray-500 uppercase">Average</div>
+                                             <div class="text-xl font-black text-ios-blue" x-text="comparisonRow.a.Average"></div>
+                                             <div class="text-[10px] font-bold" :class="getDiffClass(comparisonRow.a.Average, comparisonRow.b?.Average)" x-text="getDiff(comparisonRow.a.Average, comparisonRow.b?.Average)"></div>
+                                         </div>
+                                         <div class="bg-gray-50 dark:bg-gray-800 p-2 rounded-lg">
+                                             <div class="text-xs text-gray-500 uppercase">High Game</div>
+                                             <div class="text-lg font-bold" x-text="comparisonRow.a.HighScratchGame"></div>
+                                             <div class="text-[10px] font-bold" :class="getDiffClass(comparisonRow.a.HighScratchGame, comparisonRow.b?.HighScratchGame)" x-text="getDiff(comparisonRow.a.HighScratchGame, comparisonRow.b?.HighScratchGame)"></div>
+                                         </div>
+                                         <div class="bg-gray-50 dark:bg-gray-800 p-2 rounded-lg">
+                                             <div class="text-xs text-gray-500 uppercase">High Series</div>
+                                             <div class="text-lg font-bold" x-text="comparisonRow.a.HighScratchSeries"></div>
+                                             <div class="text-[10px] font-bold" :class="getDiffClass(comparisonRow.a.HighScratchSeries, comparisonRow.b?.HighScratchSeries)" x-text="getDiff(comparisonRow.a.HighScratchSeries, comparisonRow.b?.HighScratchSeries)"></div>
+                                         </div>
+                                         <div class="bg-gray-50 dark:bg-gray-800 p-2 rounded-lg">
+                                             <div class="text-xs text-gray-500 uppercase">Total Pins</div>
+                                             <div class="text-lg font-bold" x-text="comparisonRow.a.TotalPins"></div>
+                                             <div class="text-[10px] font-bold" :class="getDiffClass(comparisonRow.a.TotalPins, comparisonRow.b?.TotalPins)" x-text="getDiff(comparisonRow.a.TotalPins, comparisonRow.b?.TotalPins)"></div>
+                                         </div>
+                                         <div class="bg-gray-50 dark:bg-gray-800 p-2 rounded-lg">
+                                             <div class="text-xs text-gray-500 uppercase">Games</div>
+                                             <div class="text-lg font-bold" x-text="comparisonRow.a.TotalGames"></div>
+                                             <div class="text-[10px] font-bold" :class="getDiffClass(comparisonRow.a.TotalGames, comparisonRow.b?.TotalGames)" x-text="getDiff(comparisonRow.a.TotalGames, comparisonRow.b?.TotalGames)"></div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </template>
+                         </div>
+
+                         <!-- Right Side (Team B) -->
+                         <div class="flex-1 p-4 flex flex-col items-center">
+                             <template x-if="comparisonRow.b">
+                                 <div class="flex flex-col items-center w-full text-center">
+                                     <img :src="getBowlerImage(comparisonRow.b.BowlerID)" class="w-20 h-20 rounded-full border-4 border-ios-red shadow-lg object-cover mb-3">
+                                     <h4 class="font-bold text-sm leading-tight mb-1" x-text="cleanName(comparisonRow.b.BowlerName)"></h4>
+                                     <p class="text-xs text-gray-500 mb-6" x-text="comparisonRow.b.TeamName"></p>
+
+                                     <!-- Stats B -->
+                                     <div class="space-y-4 w-full">
+                                         <div class="bg-gray-50 dark:bg-gray-800 p-2 rounded-lg">
+                                             <div class="text-xs text-gray-500 uppercase">Average</div>
+                                             <div class="text-xl font-black text-ios-blue" x-text="comparisonRow.b.Average"></div>
+                                             <div class="text-[10px] font-bold" :class="getDiffClass(comparisonRow.b.Average, comparisonRow.a?.Average)" x-text="getDiff(comparisonRow.b.Average, comparisonRow.a?.Average)"></div>
+                                         </div>
+                                         <div class="bg-gray-50 dark:bg-gray-800 p-2 rounded-lg">
+                                             <div class="text-xs text-gray-500 uppercase">High Game</div>
+                                             <div class="text-lg font-bold" x-text="comparisonRow.b.HighScratchGame"></div>
+                                             <div class="text-[10px] font-bold" :class="getDiffClass(comparisonRow.b.HighScratchGame, comparisonRow.a?.HighScratchGame)" x-text="getDiff(comparisonRow.b.HighScratchGame, comparisonRow.a?.HighScratchGame)"></div>
+                                         </div>
+                                         <div class="bg-gray-50 dark:bg-gray-800 p-2 rounded-lg">
+                                             <div class="text-xs text-gray-500 uppercase">High Series</div>
+                                             <div class="text-lg font-bold" x-text="comparisonRow.b.HighScratchSeries"></div>
+                                             <div class="text-[10px] font-bold" :class="getDiffClass(comparisonRow.b.HighScratchSeries, comparisonRow.a?.HighScratchSeries)" x-text="getDiff(comparisonRow.b.HighScratchSeries, comparisonRow.a?.HighScratchSeries)"></div>
+                                         </div>
+                                         <div class="bg-gray-50 dark:bg-gray-800 p-2 rounded-lg">
+                                             <div class="text-xs text-gray-500 uppercase">Total Pins</div>
+                                             <div class="text-lg font-bold" x-text="comparisonRow.b.TotalPins"></div>
+                                             <div class="text-[10px] font-bold" :class="getDiffClass(comparisonRow.b.TotalPins, comparisonRow.a?.TotalPins)" x-text="getDiff(comparisonRow.b.TotalPins, comparisonRow.a?.TotalPins)"></div>
+                                         </div>
+                                         <div class="bg-gray-50 dark:bg-gray-800 p-2 rounded-lg">
+                                             <div class="text-xs text-gray-500 uppercase">Games</div>
+                                             <div class="text-lg font-bold" x-text="comparisonRow.b.TotalGames"></div>
+                                             <div class="text-[10px] font-bold" :class="getDiffClass(comparisonRow.b.TotalGames, comparisonRow.a?.TotalGames)" x-text="getDiff(comparisonRow.b.TotalGames, comparisonRow.a?.TotalGames)"></div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </template>
+                         </div>
+                     </div>
+                 </div>
+             </template>
+        </div>
+    </div>
+
     <!-- Team Modal -->
     <div x-show="showTeamModal" class="fixed inset-0 z-[60] bg-black/50 backdrop-blur-sm" style="display: none;"
          x-transition:enter="transition ease-out duration-300"
@@ -422,6 +534,8 @@ $bowlers = getBowlerData();
                 // Compare Tab
                 compareTeamA: '',
                 compareTeamB: '',
+                comparisonRow: null,
+                showComparisonModal: false,
 
                 init() {
                     // Pre-sort bowlers by Average DESC
@@ -505,6 +619,36 @@ $bowlers = getBowlerData();
                         rows.push({ a: teamA[i], b: teamB[i] });
                     }
                     return rows;
+                },
+
+                openComparison(row) {
+                    if (row.a && row.b) {
+                        this.comparisonRow = row;
+                        this.showComparisonModal = true;
+                    } else if (row.a) {
+                        this.openBowler(row.a);
+                    } else if (row.b) {
+                        this.openBowler(row.b);
+                    }
+                },
+
+                getDiff(val1, val2) {
+                    if (val1 === undefined || val2 === undefined || val1 === null || val2 === null) return '';
+                    const v1 = parseFloat(val1);
+                    const v2 = parseFloat(val2);
+                    const diff = v1 - v2;
+                    if (diff > 0) return '+' + diff.toLocaleString();
+                    if (diff < 0) return diff.toLocaleString();
+                    return '0';
+                },
+
+                getDiffClass(val1, val2) {
+                    if (val1 === undefined || val2 === undefined || val1 === null || val2 === null) return 'text-gray-400';
+                    const v1 = parseFloat(val1);
+                    const v2 = parseFloat(val2);
+                    if (v1 > v2) return 'text-ios-green';
+                    if (v1 < v2) return 'text-ios-red';
+                    return 'text-gray-400';
                 },
 
                 getBowlerImage(id) {

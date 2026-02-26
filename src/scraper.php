@@ -31,6 +31,9 @@ class Scraper {
             return false;
         }
 
+        // 3a. Fix missing team data
+        $this->fixMissingTeamData($bowlerData);
+
         // Add metadata to the saved data
         $outputData = [
             'meta' => $params,
@@ -111,5 +114,49 @@ class Scraper {
         }
 
         return $data;
+    }
+
+    private function fixMissingTeamData(&$bowlerData) {
+        if (!isset($bowlerData['Data']) || !is_array($bowlerData['Data'])) {
+            return;
+        }
+
+        // 1. Build lookup map of TeamNum => Team Details
+        $teamMap = [];
+        foreach ($bowlerData['Data'] as $bowler) {
+            if (!empty($bowler['TeamNum']) && $bowler['TeamNum'] > 0) {
+                $teamMap[$bowler['TeamNum']] = [
+                    'TeamID' => $bowler['TeamID'],
+                    'TeamName' => $bowler['TeamName'],
+                    'TeamNameURLFormated' => $bowler['TeamNameURLFormated']
+                ];
+            }
+        }
+
+        $fixedCount = 0;
+        // 2. Iterate and fix missing data
+        foreach ($bowlerData['Data'] as &$bowler) {
+            if (empty($bowler['TeamNum']) || $bowler['TeamNum'] == 0) {
+                // Check for (TeamNum) in BowlerName
+                if (preg_match('/\s*\((\d+)\)$/', $bowler['BowlerName'], $matches)) {
+                    $extractedTeamNum = (int)$matches[1];
+
+                    if (isset($teamMap[$extractedTeamNum])) {
+                        $teamDetails = $teamMap[$extractedTeamNum];
+                        
+                        $bowler['TeamNum'] = $extractedTeamNum;
+                        $bowler['TeamID'] = $teamDetails['TeamID'];
+                        $bowler['TeamName'] = $teamDetails['TeamName'];
+                        $bowler['TeamNameURLFormated'] = $teamDetails['TeamNameURLFormated'];
+                        
+                        $fixedCount++;
+                    }
+                }
+            }
+        }
+
+        if ($fixedCount > 0) {
+            echo "Fixed team data for $fixedCount bowlers.\n";
+        }
     }
 }

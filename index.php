@@ -14,7 +14,7 @@ $bowlers = getBowlerData();
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="StrikeStats">
     <link rel="manifest" href="manifest.json">
-    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/3163/3163246.png">
+    <link rel="apple-touch-icon" href="https://testrusso.lsu.edu/my/bowling/assets/StrikeStats.png">
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>

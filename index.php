@@ -64,7 +64,7 @@ $bowlers = getBowlerData();
              <div class="flex items-center justify-between mb-4">
                 <div>
                      <h1 class="text-3xl font-extrabold tracking-tight text-black dark:text-white flex items-center">
-                        <img src="assets/logo.png" class="h-10 w-auto mr-2 object-contain rounded-lg" alt="Logo">
+                        <img src="assets/StrikeStats.png" class="h-10 w-auto mr-2 object-contain rounded-lg" alt="Logo">
                         StrikeStats
                     </h1>
                     <p class="text-xs font-medium text-gray-500 dark:text-gray-400 mt-1 uppercase tracking-wide">League Leaderboard</p>

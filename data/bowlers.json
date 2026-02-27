@@ -3,7 +3,7 @@
         "leagueId": "130575",
         "year": "2026",
         "season": "w",
-        "weekNum": "19",
+        "weekNum": "20",
         "page": 1,
         "pageSize": 20000
     },
@@ -27,7 +27,7 @@
                 "HighScratchGame": 130,
                 "HighScratchSeries": 281,
                 "MostImproved": 3.75,
-                "BowlerPosition": 5,
+                "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 14,
                 "EnteringAverage": 0,
@@ -55,7 +55,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 3,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 1,
@@ -99,7 +99,7 @@
                 "HighScratchGame": 179,
                 "HighScratchSeries": 395,
                 "MostImproved": 12.57,
-                "BowlerPosition": 5,
+                "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 5,
                 "EnteringAverage": 0,
@@ -127,7 +127,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 3,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 25,
@@ -137,21 +137,21 @@
                 "BowlerName": "Albarado, Mark",
                 "BowlerNameURLFormated": "albarado-mark",
                 "Gender": "M",
-                "TotalPins": 416,
-                "TotalGames": 4,
-                "Average": 104,
+                "TotalPins": 548,
+                "TotalGames": 5,
+                "Average": 109,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
-                "HighHandicapGame": 114,
+                "HighHandicapGame": 132,
                 "HighHandicapSeries": 201,
-                "HighScratchGame": 114,
+                "HighScratchGame": 132,
                 "HighScratchSeries": 201,
-                "MostImproved": 2,
+                "MostImproved": 7.6,
                 "BowlerPosition": 1,
                 "BowlerStatus": "R",
                 "TeamNum": 25,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 1
             },
             {
                 "TeamID": 2,
@@ -171,11 +171,11 @@
                 "HighScratchGame": 183,
                 "HighScratchSeries": 320,
                 "MostImproved": 0,
-                "BowlerPosition": 1,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 2,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 32,
@@ -199,7 +199,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 32,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 8,
@@ -223,7 +223,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 8,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 23,
@@ -243,7 +243,7 @@
                 "HighScratchGame": 114,
                 "HighScratchSeries": 279,
                 "MostImproved": 23.33,
-                "BowlerPosition": 8,
+                "BowlerPosition": 9,
                 "BowlerStatus": "R",
                 "TeamNum": 23,
                 "EnteringAverage": 0,
@@ -295,7 +295,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 30,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 16,
@@ -367,7 +367,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 10,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 2,
@@ -401,21 +401,21 @@
                 "BowlerName": "Banks, Alijah",
                 "BowlerNameURLFormated": "banks-alijah",
                 "Gender": "M",
-                "TotalPins": 2755,
-                "TotalGames": 20,
-                "Average": 137,
+                "TotalPins": 3097,
+                "TotalGames": 23,
+                "Average": 134,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 194,
                 "HighHandicapSeries": 506,
                 "HighScratchGame": 194,
                 "HighScratchSeries": 506,
-                "MostImproved": -30.25,
+                "MostImproved": -33.35,
                 "BowlerPosition": 8,
                 "BowlerStatus": "R",
                 "TeamNum": 20,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 1
             },
             {
                 "TeamID": 7,
@@ -483,11 +483,11 @@
                 "HighScratchGame": 214,
                 "HighScratchSeries": 455,
                 "MostImproved": 7,
-                "BowlerPosition": 4,
+                "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 24,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 16,
@@ -511,7 +511,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 16,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 26,
@@ -531,11 +531,11 @@
                 "HighScratchGame": 212,
                 "HighScratchSeries": 534,
                 "MostImproved": -6.47,
-                "BowlerPosition": 3,
+                "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 26,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 7,
@@ -607,7 +607,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 24,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 1,
@@ -651,7 +651,7 @@
                 "HighScratchGame": 88,
                 "HighScratchSeries": 88,
                 "MostImproved": 0,
-                "BowlerPosition": 2,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 14,
                 "EnteringAverage": 0,
@@ -675,7 +675,7 @@
                 "HighScratchGame": 137,
                 "HighScratchSeries": 367,
                 "MostImproved": 1,
-                "BowlerPosition": 7,
+                "BowlerPosition": 8,
                 "BowlerStatus": "R",
                 "TeamNum": 18,
                 "EnteringAverage": 0,
@@ -699,7 +699,7 @@
                 "HighScratchGame": 125,
                 "HighScratchSeries": 289,
                 "MostImproved": 0.33,
-                "BowlerPosition": 3,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 18,
                 "EnteringAverage": 0,
@@ -727,7 +727,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 16,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 26,
@@ -751,7 +751,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 26,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 29,
@@ -771,7 +771,7 @@
                 "HighScratchGame": 160,
                 "HighScratchSeries": 437,
                 "MostImproved": -17.8,
-                "BowlerPosition": 6,
+                "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 29,
                 "EnteringAverage": 0,
@@ -785,21 +785,21 @@
                 "BowlerName": "Botos, Brennen",
                 "BowlerNameURLFormated": "botos-brennen",
                 "Gender": "M",
-                "TotalPins": 2519,
-                "TotalGames": 15,
-                "Average": 167,
+                "TotalPins": 2866,
+                "TotalGames": 17,
+                "Average": 168,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 234,
                 "HighHandicapSeries": 582,
                 "HighScratchGame": 234,
                 "HighScratchSeries": 582,
-                "MostImproved": -5.07,
+                "MostImproved": -4.41,
                 "BowlerPosition": 10,
                 "BowlerStatus": "R",
                 "TeamNum": 25,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 34,
@@ -833,21 +833,21 @@
                 "BowlerName": "Bourgeois, Kaden (18)",
                 "BowlerNameURLFormated": "bourgeois-kaden-18",
                 "Gender": "M",
-                "TotalPins": 2090,
-                "TotalGames": 17,
-                "Average": 122,
+                "TotalPins": 2354,
+                "TotalGames": 19,
+                "Average": 123,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 170,
                 "HighHandicapSeries": 430,
                 "HighScratchGame": 170,
                 "HighScratchSeries": 430,
-                "MostImproved": -20.06,
-                "BowlerPosition": 10,
+                "MostImproved": -19.11,
+                "BowlerPosition": 11,
                 "BowlerStatus": "R",
                 "TeamNum": 18,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 33,
@@ -867,11 +867,11 @@
                 "HighScratchGame": 166,
                 "HighScratchSeries": 449,
                 "MostImproved": 29.85,
-                "BowlerPosition": 7,
+                "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 33,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 32,
@@ -895,7 +895,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 32,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 9,
@@ -905,21 +905,21 @@
                 "BowlerName": "Bowden, Charlie",
                 "BowlerNameURLFormated": "bowden-charlie",
                 "Gender": "M",
-                "TotalPins": 1488,
-                "TotalGames": 11,
-                "Average": 135,
+                "TotalPins": 1950,
+                "TotalGames": 14,
+                "Average": 139,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
-                "HighHandicapGame": 179,
-                "HighHandicapSeries": 412,
-                "HighScratchGame": 179,
-                "HighScratchSeries": 412,
-                "MostImproved": 4.27,
+                "HighHandicapGame": 188,
+                "HighHandicapSeries": 462,
+                "HighScratchGame": 188,
+                "HighScratchSeries": 462,
+                "MostImproved": 8.29,
                 "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 9,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 3
             },
             {
                 "TeamID": 4,
@@ -943,7 +943,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 4,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 31,
@@ -1097,21 +1097,21 @@
                 "BowlerName": "Brown, Aaron",
                 "BowlerNameURLFormated": "brown-aaron",
                 "Gender": "M",
-                "TotalPins": 838,
-                "TotalGames": 8,
-                "Average": 104,
+                "TotalPins": 1258,
+                "TotalGames": 11,
+                "Average": 114,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
-                "HighHandicapGame": 135,
-                "HighHandicapSeries": 329,
-                "HighScratchGame": 135,
-                "HighScratchSeries": 329,
-                "MostImproved": 4.75,
-                "BowlerPosition": 8,
+                "HighHandicapGame": 153,
+                "HighHandicapSeries": 420,
+                "HighScratchGame": 153,
+                "HighScratchSeries": 420,
+                "MostImproved": 14.36,
+                "BowlerPosition": 9,
                 "BowlerStatus": "R",
                 "TeamNum": 14,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 18,
@@ -1145,21 +1145,21 @@
                 "BowlerName": "Brown, Daylen",
                 "BowlerNameURLFormated": "brown-daylen",
                 "Gender": "M",
-                "TotalPins": 275,
-                "TotalGames": 3,
-                "Average": 91,
+                "TotalPins": 626,
+                "TotalGames": 6,
+                "Average": 104,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
-                "HighHandicapGame": 113,
-                "HighHandicapSeries": 162,
-                "HighScratchGame": 113,
-                "HighScratchSeries": 162,
-                "MostImproved": 0.67,
-                "BowlerPosition": 3,
+                "HighHandicapGame": 133,
+                "HighHandicapSeries": 351,
+                "HighScratchGame": 133,
+                "HighScratchSeries": 351,
+                "MostImproved": 13.33,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 14,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 23,
@@ -1351,7 +1351,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 16,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 17,
@@ -1447,7 +1447,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 24,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 14,
@@ -1467,7 +1467,7 @@
                 "HighScratchGame": 129,
                 "HighScratchSeries": 190,
                 "MostImproved": -2.8,
-                "BowlerPosition": 6,
+                "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 14,
                 "EnteringAverage": 0,
@@ -1505,21 +1505,21 @@
                 "BowlerName": "Connor, Kyron",
                 "BowlerNameURLFormated": "connor-kyron",
                 "Gender": "M",
-                "TotalPins": 2105,
-                "TotalGames": 18,
-                "Average": 116,
+                "TotalPins": 2519,
+                "TotalGames": 21,
+                "Average": 119,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
-                "HighHandicapGame": 155,
-                "HighHandicapSeries": 377,
-                "HighScratchGame": 155,
-                "HighScratchSeries": 377,
-                "MostImproved": -8.06,
+                "HighHandicapGame": 163,
+                "HighHandicapSeries": 414,
+                "HighScratchGame": 163,
+                "HighScratchSeries": 414,
+                "MostImproved": -5.05,
                 "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 5,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 1
             },
             {
                 "TeamID": 23,
@@ -1553,8 +1553,8 @@
                 "BowlerName": "Cooks, Trinity",
                 "BowlerNameURLFormated": "cooks-trinity",
                 "Gender": "W",
-                "TotalPins": 1261,
-                "TotalGames": 18,
+                "TotalPins": 1490,
+                "TotalGames": 21,
                 "Average": 70,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
@@ -1562,8 +1562,8 @@
                 "HighHandicapSeries": 250,
                 "HighScratchGame": 110,
                 "HighScratchSeries": 250,
-                "MostImproved": 9.06,
-                "BowlerPosition": 4,
+                "MostImproved": 9.95,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 19,
                 "EnteringAverage": 0,
@@ -1601,21 +1601,21 @@
                 "BowlerName": "Craft, John Paul",
                 "BowlerNameURLFormated": "craft-john-paul",
                 "Gender": "M",
-                "TotalPins": 1291,
-                "TotalGames": 11,
-                "Average": 117,
+                "TotalPins": 1664,
+                "TotalGames": 14,
+                "Average": 118,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
-                "HighHandicapGame": 149,
+                "HighHandicapGame": 151,
                 "HighHandicapSeries": 383,
-                "HighScratchGame": 149,
+                "HighScratchGame": 151,
                 "HighScratchSeries": 383,
-                "MostImproved": -18.64,
+                "MostImproved": -17.14,
                 "BowlerPosition": 2,
                 "BowlerStatus": "R",
                 "TeamNum": 9,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 3
             },
             {
                 "TeamID": 30,
@@ -1663,7 +1663,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 22,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 8,
@@ -1687,7 +1687,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 8,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 14,
@@ -1697,17 +1697,17 @@
                 "BowlerName": "Davis, Vinson",
                 "BowlerNameURLFormated": "davis-vinson",
                 "Gender": "M",
-                "TotalPins": 894,
-                "TotalGames": 8,
-                "Average": 111,
+                "TotalPins": 1256,
+                "TotalGames": 11,
+                "Average": 114,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 147,
                 "HighHandicapSeries": 387,
                 "HighScratchGame": 147,
                 "HighScratchSeries": 387,
-                "MostImproved": 27.75,
-                "BowlerPosition": 10,
+                "MostImproved": 30.18,
+                "BowlerPosition": 11,
                 "BowlerStatus": "R",
                 "TeamNum": 14,
                 "EnteringAverage": 0,
@@ -1735,7 +1735,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 8,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 24,
@@ -1759,7 +1759,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 24,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 8,
@@ -1779,11 +1779,11 @@
                 "HighScratchGame": 213,
                 "HighScratchSeries": 361,
                 "MostImproved": -0.38,
-                "BowlerPosition": 3,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 8,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 2,
@@ -1855,7 +1855,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 2,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 15,
@@ -1899,7 +1899,7 @@
                 "HighScratchGame": 146,
                 "HighScratchSeries": 385,
                 "MostImproved": -13.86,
-                "BowlerPosition": 9,
+                "BowlerPosition": 10,
                 "BowlerStatus": "R",
                 "TeamNum": 15,
                 "EnteringAverage": 0,
@@ -1927,7 +1927,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 33,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 10,
@@ -1947,11 +1947,11 @@
                 "HighScratchGame": 224,
                 "HighScratchSeries": 628,
                 "MostImproved": -17.94,
-                "BowlerPosition": 7,
+                "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 10,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 2,
@@ -1971,11 +1971,11 @@
                 "HighScratchGame": 223,
                 "HighScratchSeries": 614,
                 "MostImproved": 14.55,
-                "BowlerPosition": 5,
+                "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 2,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 11,
@@ -2023,7 +2023,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 29,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 15,
@@ -2105,21 +2105,21 @@
                 "BowlerName": "Easterly, Benjamin",
                 "BowlerNameURLFormated": "easterly-benjamin",
                 "Gender": "M",
-                "TotalPins": 2305,
-                "TotalGames": 16,
-                "Average": 144,
+                "TotalPins": 2589,
+                "TotalGames": 18,
+                "Average": 143,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 212,
                 "HighHandicapSeries": 497,
                 "HighScratchGame": 212,
                 "HighScratchSeries": 497,
-                "MostImproved": -20.94,
+                "MostImproved": -21.17,
                 "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 25,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 24,
@@ -2283,7 +2283,7 @@
                 "HighScratchGame": 138,
                 "HighScratchSeries": 400,
                 "MostImproved": 8.56,
-                "BowlerPosition": 5,
+                "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 29,
                 "EnteringAverage": 0,
@@ -2307,7 +2307,7 @@
                 "HighScratchGame": 166,
                 "HighScratchSeries": 356,
                 "MostImproved": -4.76,
-                "BowlerPosition": 3,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 29,
                 "EnteringAverage": 0,
@@ -2331,7 +2331,7 @@
                 "HighScratchGame": 223,
                 "HighScratchSeries": 559,
                 "MostImproved": 22.53,
-                "BowlerPosition": 7,
+                "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 4,
                 "EnteringAverage": 0,
@@ -2345,21 +2345,21 @@
                 "BowlerName": "Fields, Austin (18)",
                 "BowlerNameURLFormated": "fields-austin-18",
                 "Gender": "M",
-                "TotalPins": 642,
-                "TotalGames": 6,
-                "Average": 107,
+                "TotalPins": 912,
+                "TotalGames": 8,
+                "Average": 114,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
-                "HighHandicapGame": 150,
+                "HighHandicapGame": 160,
                 "HighHandicapSeries": 373,
-                "HighScratchGame": 150,
+                "HighScratchGame": 160,
                 "HighScratchSeries": 373,
-                "MostImproved": 18,
-                "BowlerPosition": 6,
+                "MostImproved": 25,
+                "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 18,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 2,
@@ -2383,7 +2383,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 2,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 32,
@@ -2427,11 +2427,11 @@
                 "HighScratchGame": 213,
                 "HighScratchSeries": 510,
                 "MostImproved": 20.09,
-                "BowlerPosition": 6,
+                "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 24,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 24,
@@ -2513,8 +2513,8 @@
                 "BowlerName": "Foret, Brady",
                 "BowlerNameURLFormated": "foret-brady",
                 "Gender": "M",
-                "TotalPins": 3781,
-                "TotalGames": 21,
+                "TotalPins": 4142,
+                "TotalGames": 23,
                 "Average": 180,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
@@ -2522,12 +2522,12 @@
                 "HighHandicapSeries": 642,
                 "HighScratchGame": 258,
                 "HighScratchSeries": 642,
-                "MostImproved": -10.95,
+                "MostImproved": -10.91,
                 "BowlerPosition": 11,
                 "BowlerStatus": "R",
                 "TeamNum": 25,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 28,
@@ -2571,7 +2571,7 @@
                 "HighScratchGame": 216,
                 "HighScratchSeries": 565,
                 "MostImproved": 12.67,
-                "BowlerPosition": 6,
+                "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 4,
                 "EnteringAverage": 0,
@@ -2599,7 +2599,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 10,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 14,
@@ -2619,7 +2619,7 @@
                 "HighScratchGame": 75,
                 "HighScratchSeries": 75,
                 "MostImproved": 0,
-                "BowlerPosition": 1,
+                "BowlerPosition": 2,
                 "BowlerStatus": "R",
                 "TeamNum": 14,
                 "EnteringAverage": 0,
@@ -2633,21 +2633,21 @@
                 "BowlerName": "Garrison, Tyrin",
                 "BowlerNameURLFormated": "garrison-tyrin",
                 "Gender": "M",
-                "TotalPins": 2714,
-                "TotalGames": 20,
-                "Average": 135,
+                "TotalPins": 2969,
+                "TotalGames": 22,
+                "Average": 134,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 186,
                 "HighHandicapSeries": 442,
                 "HighScratchGame": 186,
                 "HighScratchSeries": 442,
-                "MostImproved": -11.3,
+                "MostImproved": -12.05,
                 "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 20,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 1
             },
             {
                 "TeamID": 25,
@@ -2657,8 +2657,8 @@
                 "BowlerName": "Gautreaux, Benjamin",
                 "BowlerNameURLFormated": "gautreaux-benjamin",
                 "Gender": "M",
-                "TotalPins": 4249,
-                "TotalGames": 23,
+                "TotalPins": 4604,
+                "TotalGames": 25,
                 "Average": 184,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
@@ -2666,12 +2666,12 @@
                 "HighHandicapSeries": 607,
                 "HighScratchGame": 277,
                 "HighScratchSeries": 607,
-                "MostImproved": -14.26,
+                "MostImproved": -14.84,
                 "BowlerPosition": 12,
                 "BowlerStatus": "R",
                 "TeamNum": 25,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 2,
@@ -2691,11 +2691,11 @@
                 "HighScratchGame": 153,
                 "HighScratchSeries": 293,
                 "MostImproved": 0,
-                "BowlerPosition": 3,
+                "BowlerPosition": 2,
                 "BowlerStatus": "R",
                 "TeamNum": 2,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 11,
@@ -2763,7 +2763,7 @@
                 "HighScratchGame": 100,
                 "HighScratchSeries": 258,
                 "MostImproved": 25.92,
-                "BowlerPosition": 3,
+                "BowlerPosition": 2,
                 "BowlerStatus": "R",
                 "TeamNum": 34,
                 "EnteringAverage": 0,
@@ -2835,11 +2835,11 @@
                 "HighScratchGame": 87,
                 "HighScratchSeries": 173,
                 "MostImproved": 0,
-                "BowlerPosition": 2,
+                "BowlerPosition": 1,
                 "BowlerStatus": "R",
                 "TeamNum": 33,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 22,
@@ -2859,11 +2859,11 @@
                 "HighScratchGame": 119,
                 "HighScratchSeries": 190,
                 "MostImproved": -3.17,
-                "BowlerPosition": 4,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 22,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 2,
@@ -2921,8 +2921,8 @@
                 "BowlerName": "Hall, John Patrick",
                 "BowlerNameURLFormated": "hall-john-patrick",
                 "Gender": "M",
-                "TotalPins": 2123,
-                "TotalGames": 14,
+                "TotalPins": 2420,
+                "TotalGames": 16,
                 "Average": 151,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
@@ -2930,12 +2930,12 @@
                 "HighHandicapSeries": 476,
                 "HighScratchGame": 195,
                 "HighScratchSeries": 476,
-                "MostImproved": -5.36,
+                "MostImproved": -5.75,
                 "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 25,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 33,
@@ -2955,11 +2955,11 @@
                 "HighScratchGame": 188,
                 "HighScratchSeries": 330,
                 "MostImproved": 6.08,
-                "BowlerPosition": 4,
+                "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 33,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 24,
@@ -2983,7 +2983,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 24,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 6,
@@ -3027,7 +3027,7 @@
                 "HighScratchGame": 127,
                 "HighScratchSeries": 187,
                 "MostImproved": -4.6,
-                "BowlerPosition": 7,
+                "BowlerPosition": 8,
                 "BowlerStatus": "R",
                 "TeamNum": 14,
                 "EnteringAverage": 0,
@@ -3195,7 +3195,7 @@
                 "HighScratchGame": 105,
                 "HighScratchSeries": 276,
                 "MostImproved": 0,
-                "BowlerPosition": 1,
+                "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 34,
                 "EnteringAverage": 0,
@@ -3219,7 +3219,7 @@
                 "HighScratchGame": 0,
                 "HighScratchSeries": 0,
                 "MostImproved": 0,
-                "BowlerPosition": 6,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 23,
                 "EnteringAverage": 0,
@@ -3271,7 +3271,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 10,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 19,
@@ -3291,7 +3291,7 @@
                 "HighScratchGame": 0,
                 "HighScratchSeries": 0,
                 "MostImproved": 0,
-                "BowlerPosition": 2,
+                "BowlerPosition": 1,
                 "BowlerStatus": "R",
                 "TeamNum": 19,
                 "EnteringAverage": 0,
@@ -3401,21 +3401,21 @@
                 "BowlerName": "Jackson, William",
                 "BowlerNameURLFormated": "jackson-william",
                 "Gender": "M",
-                "TotalPins": 1669,
-                "TotalGames": 18,
-                "Average": 92,
+                "TotalPins": 2097,
+                "TotalGames": 21,
+                "Average": 99,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
-                "HighHandicapGame": 129,
-                "HighHandicapSeries": 329,
-                "HighScratchGame": 129,
-                "HighScratchSeries": 329,
-                "MostImproved": -1.28,
-                "BowlerPosition": 7,
+                "HighHandicapGame": 174,
+                "HighHandicapSeries": 428,
+                "HighScratchGame": 174,
+                "HighScratchSeries": 428,
+                "MostImproved": 5.86,
+                "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 19,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 32,
@@ -3439,7 +3439,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 32,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 28,
@@ -3511,7 +3511,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 32,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 17,
@@ -3555,7 +3555,7 @@
                 "HighScratchGame": 100,
                 "HighScratchSeries": 262,
                 "MostImproved": 21,
-                "BowlerPosition": 2,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 5,
                 "EnteringAverage": 0,
@@ -3603,7 +3603,7 @@
                 "HighScratchGame": 147,
                 "HighScratchSeries": 390,
                 "MostImproved": -16.27,
-                "BowlerPosition": 10,
+                "BowlerPosition": 9,
                 "BowlerStatus": "R",
                 "TeamNum": 15,
                 "EnteringAverage": 0,
@@ -3761,17 +3761,17 @@
                 "BowlerName": "Kelly, Devante",
                 "BowlerNameURLFormated": "kelly-devante",
                 "Gender": "M",
-                "TotalPins": 2325,
-                "TotalGames": 24,
-                "Average": 96,
+                "TotalPins": 2571,
+                "TotalGames": 27,
+                "Average": 95,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 138,
                 "HighHandicapSeries": 355,
                 "HighScratchGame": 138,
                 "HighScratchSeries": 355,
-                "MostImproved": 19.88,
-                "BowlerPosition": 3,
+                "MostImproved": 18.22,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 5,
                 "EnteringAverage": 0,
@@ -3785,16 +3785,16 @@
                 "BowlerName": "Kelly, Kerrington",
                 "BowlerNameURLFormated": "kelly-kerrington",
                 "Gender": "M",
-                "TotalPins": 1878,
-                "TotalGames": 17,
-                "Average": 110,
+                "TotalPins": 2078,
+                "TotalGames": 19,
+                "Average": 109,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 141,
                 "HighHandicapSeries": 348,
                 "HighScratchGame": 141,
                 "HighScratchSeries": 348,
-                "MostImproved": 3.47,
+                "MostImproved": 2.37,
                 "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 20,
@@ -3867,7 +3867,7 @@
                 "HighScratchGame": 118,
                 "HighScratchSeries": 294,
                 "MostImproved": 1,
-                "BowlerPosition": 2,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 18,
                 "EnteringAverage": 0,
@@ -3891,7 +3891,7 @@
                 "HighScratchGame": 198,
                 "HighScratchSeries": 451,
                 "MostImproved": 17.67,
-                "BowlerPosition": 4,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 4,
                 "EnteringAverage": 0,
@@ -3977,21 +3977,21 @@
                 "BowlerName": "Kitchens, Preston",
                 "BowlerNameURLFormated": "kitchens-preston",
                 "Gender": "M",
-                "TotalPins": 1895,
-                "TotalGames": 12,
-                "Average": 157,
+                "TotalPins": 2185,
+                "TotalGames": 14,
+                "Average": 156,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 214,
                 "HighHandicapSeries": 499,
                 "HighScratchGame": 214,
                 "HighScratchSeries": 499,
-                "MostImproved": -34.08,
+                "MostImproved": -35.93,
                 "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 9,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 23,
@@ -4011,7 +4011,7 @@
                 "HighScratchGame": 107,
                 "HighScratchSeries": 254,
                 "MostImproved": 5.08,
-                "BowlerPosition": 4,
+                "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 23,
                 "EnteringAverage": 0,
@@ -4025,21 +4025,21 @@
                 "BowlerName": "Lacombe, Alayna (18)",
                 "BowlerNameURLFormated": "lacombe-alayna-18",
                 "Gender": "W",
-                "TotalPins": 748,
-                "TotalGames": 9,
-                "Average": 83,
+                "TotalPins": 925,
+                "TotalGames": 11,
+                "Average": 84,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 118,
                 "HighHandicapSeries": 327,
                 "HighScratchGame": 118,
                 "HighScratchSeries": 327,
-                "MostImproved": 17.11,
+                "MostImproved": 18.09,
                 "BowlerPosition": 1,
                 "BowlerStatus": "R",
                 "TeamNum": 18,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 1
             },
             {
                 "TeamID": 18,
@@ -4059,7 +4059,7 @@
                 "HighScratchGame": 111,
                 "HighScratchSeries": 312,
                 "MostImproved": 0,
-                "BowlerPosition": 5,
+                "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 18,
                 "EnteringAverage": 0,
@@ -4083,11 +4083,11 @@
                 "HighScratchGame": 234,
                 "HighScratchSeries": 624,
                 "MostImproved": -12.73,
-                "BowlerPosition": 9,
+                "BowlerPosition": 8,
                 "BowlerStatus": "R",
                 "TeamNum": 2,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 34,
@@ -4107,7 +4107,7 @@
                 "HighScratchGame": 116,
                 "HighScratchSeries": 305,
                 "MostImproved": -0.76,
-                "BowlerPosition": 6,
+                "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 34,
                 "EnteringAverage": 0,
@@ -4121,17 +4121,17 @@
                 "BowlerName": "Lambert, Cody (18)",
                 "BowlerNameURLFormated": "lambert-cody-18",
                 "Gender": "M",
-                "TotalPins": 1051,
-                "TotalGames": 9,
-                "Average": 116,
+                "TotalPins": 1234,
+                "TotalGames": 11,
+                "Average": 112,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 145,
                 "HighHandicapSeries": 363,
                 "HighScratchGame": 145,
                 "HighScratchSeries": 363,
-                "MostImproved": -4.22,
-                "BowlerPosition": 9,
+                "MostImproved": -8.82,
+                "BowlerPosition": 10,
                 "BowlerStatus": "R",
                 "TeamNum": 18,
                 "EnteringAverage": 0,
@@ -4179,11 +4179,11 @@
                 "HighScratchGame": 157,
                 "HighScratchSeries": 279,
                 "MostImproved": -6.33,
-                "BowlerPosition": 5,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 33,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 2,
@@ -4231,7 +4231,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 32,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 32,
@@ -4255,7 +4255,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 32,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 31,
@@ -4327,7 +4327,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 24,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 31,
@@ -4375,7 +4375,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 26,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 11,
@@ -4457,21 +4457,21 @@
                 "BowlerName": "Lucas, A'Meerah (18)",
                 "BowlerNameURLFormated": "lucas-ameerah-18",
                 "Gender": "W",
-                "TotalPins": 617,
-                "TotalGames": 6,
-                "Average": 102,
+                "TotalPins": 790,
+                "TotalGames": 8,
+                "Average": 98,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 130,
                 "HighHandicapSeries": 336,
                 "HighScratchGame": 130,
                 "HighScratchSeries": 336,
-                "MostImproved": -9.17,
-                "BowlerPosition": 4,
+                "MostImproved": -13.25,
+                "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 18,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 34,
@@ -4491,7 +4491,7 @@
                 "HighScratchGame": 87,
                 "HighScratchSeries": 201,
                 "MostImproved": 4,
-                "BowlerPosition": 2,
+                "BowlerPosition": 1,
                 "BowlerStatus": "R",
                 "TeamNum": 34,
                 "EnteringAverage": 0,
@@ -4567,7 +4567,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 32,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 15,
@@ -4659,11 +4659,11 @@
                 "HighScratchGame": 247,
                 "HighScratchSeries": 671,
                 "MostImproved": -6.41,
-                "BowlerPosition": 6,
+                "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 10,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 11,
@@ -4721,21 +4721,21 @@
                 "BowlerName": "May, Jacob",
                 "BowlerNameURLFormated": "may-jacob",
                 "Gender": "M",
-                "TotalPins": 2371,
-                "TotalGames": 16,
-                "Average": 148,
+                "TotalPins": 2782,
+                "TotalGames": 19,
+                "Average": 146,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 225,
                 "HighHandicapSeries": 576,
                 "HighScratchGame": 225,
                 "HighScratchSeries": 576,
-                "MostImproved": 8.19,
+                "MostImproved": 6.42,
                 "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 9,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 3
             },
             {
                 "TeamID": 16,
@@ -4755,7 +4755,7 @@
                 "HighScratchGame": 182,
                 "HighScratchSeries": 457,
                 "MostImproved": -3.75,
-                "BowlerPosition": 7,
+                "BowlerPosition": 8,
                 "BowlerStatus": "R",
                 "TeamNum": 16,
                 "EnteringAverage": 0,
@@ -4779,11 +4779,11 @@
                 "HighScratchGame": 136,
                 "HighScratchSeries": 239,
                 "MostImproved": 0,
-                "BowlerPosition": 1,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 33,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 3,
@@ -4831,7 +4831,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 16,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 2,
@@ -4851,11 +4851,11 @@
                 "HighScratchGame": 139,
                 "HighScratchSeries": 254,
                 "MostImproved": 0,
-                "BowlerPosition": 2,
+                "BowlerPosition": 1,
                 "BowlerStatus": "R",
                 "TeamNum": 2,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 18,
@@ -4865,21 +4865,21 @@
                 "BowlerName": "Millet, Mariah (18)",
                 "BowlerNameURLFormated": "millet-mariah-18",
                 "Gender": "W",
-                "TotalPins": 528,
-                "TotalGames": 6,
+                "TotalPins": 794,
+                "TotalGames": 9,
                 "Average": 88,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
-                "HighHandicapGame": 97,
-                "HighHandicapSeries": 264,
-                "HighScratchGame": 97,
-                "HighScratchSeries": 264,
-                "MostImproved": 0,
-                "BowlerPosition": 0,
-                "BowlerStatus": "T",
+                "HighHandicapGame": 103,
+                "HighHandicapSeries": 266,
+                "HighScratchGame": 103,
+                "HighScratchSeries": 266,
+                "MostImproved": 0.22,
+                "BowlerPosition": 2,
+                "BowlerStatus": "R",
                 "TeamNum": 18,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 3
             },
             {
                 "TeamID": 33,
@@ -4947,11 +4947,11 @@
                 "HighScratchGame": 151,
                 "HighScratchSeries": 413,
                 "MostImproved": 6,
-                "BowlerPosition": 3,
+                "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 22,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 0,
@@ -5047,7 +5047,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 10,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 11,
@@ -5139,11 +5139,11 @@
                 "HighScratchGame": 169,
                 "HighScratchSeries": 420,
                 "MostImproved": 8.58,
-                "BowlerPosition": 7,
+                "BowlerPosition": 8,
                 "BowlerStatus": "R",
                 "TeamNum": 22,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 28,
@@ -5225,21 +5225,21 @@
                 "BowlerName": "Namikas, Timothy",
                 "BowlerNameURLFormated": "namikas-timothy",
                 "Gender": "M",
-                "TotalPins": 1384,
-                "TotalGames": 9,
-                "Average": 153,
+                "TotalPins": 1740,
+                "TotalGames": 11,
+                "Average": 158,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 202,
                 "HighHandicapSeries": 476,
                 "HighScratchGame": 202,
                 "HighScratchSeries": 476,
-                "MostImproved": -1.22,
+                "MostImproved": 3.18,
                 "BowlerPosition": 9,
                 "BowlerStatus": "R",
                 "TeamNum": 25,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 8,
@@ -5263,7 +5263,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 8,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 9,
@@ -5273,21 +5273,21 @@
                 "BowlerName": "Navarre, Evan",
                 "BowlerNameURLFormated": "navarre-evan",
                 "Gender": "M",
-                "TotalPins": 1281,
-                "TotalGames": 7,
-                "Average": 183,
+                "TotalPins": 1793,
+                "TotalGames": 10,
+                "Average": 179,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 225,
-                "HighHandicapSeries": 397,
+                "HighHandicapSeries": 512,
                 "HighScratchGame": 225,
-                "HighScratchSeries": 397,
-                "MostImproved": -20,
+                "HighScratchSeries": 512,
+                "MostImproved": -23.7,
                 "BowlerPosition": 8,
                 "BowlerStatus": "R",
                 "TeamNum": 9,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 3
             },
             {
                 "TeamID": 2,
@@ -5307,11 +5307,11 @@
                 "HighScratchGame": 226,
                 "HighScratchSeries": 612,
                 "MostImproved": -8,
-                "BowlerPosition": 8,
+                "BowlerPosition": 9,
                 "BowlerStatus": "R",
                 "TeamNum": 2,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 1,
@@ -5403,7 +5403,7 @@
                 "HighScratchGame": 95,
                 "HighScratchSeries": 242,
                 "MostImproved": -2.56,
-                "BowlerPosition": 9,
+                "BowlerPosition": 8,
                 "BowlerStatus": "R",
                 "TeamNum": 23,
                 "EnteringAverage": 0,
@@ -5431,7 +5431,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 8,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 2,
@@ -5523,7 +5523,7 @@
                 "HighScratchGame": 114,
                 "HighScratchSeries": 260,
                 "MostImproved": 23.17,
-                "BowlerPosition": 5,
+                "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 23,
                 "EnteringAverage": 0,
@@ -5537,21 +5537,21 @@
                 "BowlerName": "Ohler, Justin",
                 "BowlerNameURLFormated": "ohler-justin",
                 "Gender": "M",
-                "TotalPins": 2843,
-                "TotalGames": 14,
-                "Average": 203,
+                "TotalPins": 3020,
+                "TotalGames": 15,
+                "Average": 201,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 270,
                 "HighHandicapSeries": 691,
                 "HighScratchGame": 270,
                 "HighScratchSeries": 691,
-                "MostImproved": 27.07,
+                "MostImproved": 25.33,
                 "BowlerPosition": 9,
                 "BowlerStatus": "R",
                 "TeamNum": 9,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 1
             },
             {
                 "TeamID": 30,
@@ -5643,7 +5643,7 @@
                 "HighScratchGame": 83,
                 "HighScratchSeries": 83,
                 "MostImproved": 0,
-                "BowlerPosition": 7,
+                "BowlerPosition": 2,
                 "BowlerStatus": "R",
                 "TeamNum": 29,
                 "EnteringAverage": 0,
@@ -5691,7 +5691,7 @@
                 "HighScratchGame": 165,
                 "HighScratchSeries": 297,
                 "MostImproved": -2.83,
-                "BowlerPosition": 3,
+                "BowlerPosition": 2,
                 "BowlerStatus": "R",
                 "TeamNum": 10,
                 "EnteringAverage": 0,
@@ -5715,11 +5715,11 @@
                 "HighScratchGame": 130,
                 "HighScratchSeries": 242,
                 "MostImproved": -0.17,
-                "BowlerPosition": 5,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 22,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 1,
@@ -5791,7 +5791,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 22,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 25,
@@ -5839,7 +5839,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 22,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 34,
@@ -5955,11 +5955,11 @@
                 "HighScratchGame": 149,
                 "HighScratchSeries": 277,
                 "MostImproved": -11.89,
-                "BowlerPosition": 3,
+                "BowlerPosition": 2,
                 "BowlerStatus": "R",
                 "TeamNum": 33,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 2,
@@ -6031,7 +6031,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 8,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 12,
@@ -6127,7 +6127,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 30,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 26,
@@ -6151,7 +6151,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 26,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 26,
@@ -6175,7 +6175,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 26,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 0,
@@ -6219,11 +6219,11 @@
                 "HighScratchGame": 170,
                 "HighScratchSeries": 485,
                 "MostImproved": 12.55,
-                "BowlerPosition": 8,
+                "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 16,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 2,
@@ -6291,11 +6291,11 @@
                 "HighScratchGame": 194,
                 "HighScratchSeries": 540,
                 "MostImproved": -9.07,
-                "BowlerPosition": 5,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 26,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 18,
@@ -6305,21 +6305,21 @@
                 "BowlerName": "Roussel, Ayden (18)",
                 "BowlerNameURLFormated": "roussel-ayden-18",
                 "Gender": "M",
-                "TotalPins": 1299,
-                "TotalGames": 9,
-                "Average": 144,
+                "TotalPins": 1767,
+                "TotalGames": 12,
+                "Average": 147,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 180,
-                "HighHandicapSeries": 465,
+                "HighHandicapSeries": 468,
                 "HighScratchGame": 180,
-                "HighScratchSeries": 465,
-                "MostImproved": 7.33,
-                "BowlerPosition": 11,
+                "HighScratchSeries": 468,
+                "MostImproved": 10.25,
+                "BowlerPosition": 12,
                 "BowlerStatus": "R",
                 "TeamNum": 18,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 3
             },
             {
                 "TeamID": 12,
@@ -6363,11 +6363,11 @@
                 "HighScratchGame": 225,
                 "HighScratchSeries": 579,
                 "MostImproved": 6.27,
-                "BowlerPosition": 7,
+                "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 2,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 4,
@@ -6387,7 +6387,7 @@
                 "HighScratchGame": 191,
                 "HighScratchSeries": 409,
                 "MostImproved": 12.63,
-                "BowlerPosition": 3,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 4,
                 "EnteringAverage": 0,
@@ -6415,7 +6415,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 22,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 13,
@@ -6449,8 +6449,8 @@
                 "BowlerName": "Santana, Maximo",
                 "BowlerNameURLFormated": "santana-maximo",
                 "Gender": "M",
-                "TotalPins": 322,
-                "TotalGames": 3,
+                "TotalPins": 430,
+                "TotalGames": 4,
                 "Average": 107,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
@@ -6458,12 +6458,12 @@
                 "HighHandicapSeries": 115,
                 "HighScratchGame": 115,
                 "HighScratchSeries": 115,
-                "MostImproved": 0.33,
+                "MostImproved": 0.5,
                 "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 25,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 1
             },
             {
                 "TeamID": 24,
@@ -6487,7 +6487,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 24,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 17,
@@ -6579,7 +6579,7 @@
                 "HighScratchGame": 189,
                 "HighScratchSeries": 498,
                 "MostImproved": 3.78,
-                "BowlerPosition": 4,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 8,
                 "EnteringAverage": 0,
@@ -6593,8 +6593,8 @@
                 "BowlerName": "Simon, M'Kynzi",
                 "BowlerNameURLFormated": "simon-mkynzi",
                 "Gender": "M",
-                "TotalPins": 649,
-                "TotalGames": 10,
+                "TotalPins": 709,
+                "TotalGames": 11,
                 "Average": 64,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
@@ -6602,12 +6602,12 @@
                 "HighHandicapSeries": 218,
                 "HighScratchGame": 84,
                 "HighScratchSeries": 218,
-                "MostImproved": -1.1,
+                "MostImproved": -1.55,
                 "BowlerPosition": 1,
                 "BowlerStatus": "R",
                 "TeamNum": 20,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 1
             },
             {
                 "TeamID": 20,
@@ -6737,17 +6737,17 @@
                 "BowlerName": "Snedecor, Laithan",
                 "BowlerNameURLFormated": "snedecor-laithan",
                 "Gender": "M",
-                "TotalPins": 2792,
-                "TotalGames": 24,
-                "Average": 116,
+                "TotalPins": 3159,
+                "TotalGames": 27,
+                "Average": 117,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 164,
                 "HighHandicapSeries": 376,
                 "HighScratchGame": 164,
                 "HighScratchSeries": 376,
-                "MostImproved": -2.67,
-                "BowlerPosition": 6,
+                "MostImproved": -2,
+                "BowlerPosition": 8,
                 "BowlerStatus": "R",
                 "TeamNum": 5,
                 "EnteringAverage": 0,
@@ -6771,7 +6771,7 @@
                 "HighScratchGame": 117,
                 "HighScratchSeries": 336,
                 "MostImproved": -5.64,
-                "BowlerPosition": 4,
+                "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 3,
                 "EnteringAverage": 0,
@@ -6819,11 +6819,11 @@
                 "HighScratchGame": 187,
                 "HighScratchSeries": 479,
                 "MostImproved": -5.81,
-                "BowlerPosition": 4,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 26,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 2,
@@ -6891,11 +6891,11 @@
                 "HighScratchGame": 149,
                 "HighScratchSeries": 295,
                 "MostImproved": 5.3,
-                "BowlerPosition": 6,
+                "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 33,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 24,
@@ -6915,11 +6915,11 @@
                 "HighScratchGame": 149,
                 "HighScratchSeries": 149,
                 "MostImproved": 0,
-                "BowlerPosition": 7,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 24,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 3,
@@ -6939,7 +6939,7 @@
                 "HighScratchGame": 132,
                 "HighScratchSeries": 340,
                 "MostImproved": 7.31,
-                "BowlerPosition": 5,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 3,
                 "EnteringAverage": 0,
@@ -6987,7 +6987,7 @@
                 "HighScratchGame": 110,
                 "HighScratchSeries": 251,
                 "MostImproved": -7.69,
-                "BowlerPosition": 5,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 34,
                 "EnteringAverage": 0,
@@ -7121,21 +7121,21 @@
                 "BowlerName": "Thomas, Jackson",
                 "BowlerNameURLFormated": "thomas-jackson",
                 "Gender": "M",
-                "TotalPins": 2449,
-                "TotalGames": 15,
-                "Average": 163,
+                "TotalPins": 2929,
+                "TotalGames": 18,
+                "Average": 162,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 210,
                 "HighHandicapSeries": 550,
                 "HighScratchGame": 210,
                 "HighScratchSeries": 550,
-                "MostImproved": 17.27,
+                "MostImproved": 16.72,
                 "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 9,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 20,
@@ -7145,21 +7145,21 @@
                 "BowlerName": "Thomas, Kierston",
                 "BowlerNameURLFormated": "thomas-kierston",
                 "Gender": "M",
-                "TotalPins": 394,
-                "TotalGames": 4,
-                "Average": 98,
+                "TotalPins": 503,
+                "TotalGames": 5,
+                "Average": 100,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 112,
                 "HighHandicapSeries": 182,
                 "HighScratchGame": 112,
                 "HighScratchSeries": 182,
-                "MostImproved": 0.5,
+                "MostImproved": 2.6,
                 "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 20,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 1
             },
             {
                 "TeamID": 5,
@@ -7169,17 +7169,17 @@
                 "BowlerName": "Thomas, Mackaela",
                 "BowlerNameURLFormated": "thomas-mackaela",
                 "Gender": "W",
-                "TotalPins": 2094,
-                "TotalGames": 21,
-                "Average": 99,
+                "TotalPins": 2337,
+                "TotalGames": 24,
+                "Average": 97,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 119,
                 "HighHandicapSeries": 329,
                 "HighScratchGame": 119,
                 "HighScratchSeries": 329,
-                "MostImproved": 9.71,
-                "BowlerPosition": 4,
+                "MostImproved": 7.38,
+                "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 5,
                 "EnteringAverage": 0,
@@ -7193,21 +7193,21 @@
                 "BowlerName": "Thomas, Riley",
                 "BowlerNameURLFormated": "thomas-riley",
                 "Gender": "W",
-                "TotalPins": 829,
-                "TotalGames": 12,
-                "Average": 69,
+                "TotalPins": 1078,
+                "TotalGames": 15,
+                "Average": 71,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 96,
-                "HighHandicapSeries": 242,
+                "HighHandicapSeries": 249,
                 "HighScratchGame": 96,
-                "HighScratchSeries": 242,
-                "MostImproved": -2.92,
-                "BowlerPosition": 3,
+                "HighScratchSeries": 249,
+                "MostImproved": -0.13,
+                "BowlerPosition": 2,
                 "BowlerStatus": "R",
                 "TeamNum": 19,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 1
             },
             {
                 "TeamID": 4,
@@ -7231,7 +7231,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 4,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 22,
@@ -7251,7 +7251,7 @@
                 "HighScratchGame": 146,
                 "HighScratchSeries": 387,
                 "MostImproved": -8.67,
-                "BowlerPosition": 8,
+                "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 22,
                 "EnteringAverage": 0,
@@ -7303,7 +7303,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 24,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 25,
@@ -7313,21 +7313,21 @@
                 "BowlerName": "Tucker, Christian",
                 "BowlerNameURLFormated": "tucker-christian",
                 "Gender": "M",
-                "TotalPins": 1137,
-                "TotalGames": 9,
-                "Average": 126,
+                "TotalPins": 1485,
+                "TotalGames": 11,
+                "Average": 135,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
-                "HighHandicapGame": 161,
+                "HighHandicapGame": 186,
                 "HighHandicapSeries": 351,
-                "HighScratchGame": 161,
+                "HighScratchGame": 186,
                 "HighScratchSeries": 351,
-                "MostImproved": 4.33,
+                "MostImproved": 13,
                 "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 25,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 33,
@@ -7471,7 +7471,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 33,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 28,
@@ -7601,8 +7601,8 @@
                 "BowlerName": "Washington, Ethan",
                 "BowlerNameURLFormated": "washington-ethan",
                 "Gender": "M",
-                "TotalPins": 1395,
-                "TotalGames": 13,
+                "TotalPins": 1611,
+                "TotalGames": 15,
                 "Average": 107,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
@@ -7610,12 +7610,12 @@
                 "HighHandicapSeries": 329,
                 "HighScratchGame": 144,
                 "HighScratchSeries": 329,
-                "MostImproved": 12.31,
+                "MostImproved": 12.4,
                 "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 20,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 14,
@@ -7635,7 +7635,7 @@
                 "HighScratchGame": 133,
                 "HighScratchSeries": 217,
                 "MostImproved": -9.5,
-                "BowlerPosition": 4,
+                "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 14,
                 "EnteringAverage": 0,
@@ -7697,21 +7697,21 @@
                 "BowlerName": "Weber, Daxx (18)",
                 "BowlerNameURLFormated": "weber-daxx-18",
                 "Gender": "M",
-                "TotalPins": 1360,
-                "TotalGames": 12,
-                "Average": 113,
+                "TotalPins": 1543,
+                "TotalGames": 14,
+                "Average": 110,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 144,
                 "HighHandicapSeries": 361,
                 "HighScratchGame": 144,
                 "HighScratchSeries": 361,
-                "MostImproved": 4.33,
-                "BowlerPosition": 8,
+                "MostImproved": 1.21,
+                "BowlerPosition": 9,
                 "BowlerStatus": "R",
                 "TeamNum": 18,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 1
             },
             {
                 "TeamID": 20,
@@ -7721,21 +7721,21 @@
                 "BowlerName": "Wells, Dallas",
                 "BowlerNameURLFormated": "wells-dallas",
                 "Gender": "M",
-                "TotalPins": 3205,
-                "TotalGames": 21,
-                "Average": 152,
+                "TotalPins": 3610,
+                "TotalGames": 24,
+                "Average": 150,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 193,
                 "HighHandicapSeries": 511,
                 "HighScratchGame": 193,
                 "HighScratchSeries": 511,
-                "MostImproved": 12.62,
+                "MostImproved": 10.42,
                 "BowlerPosition": 9,
                 "BowlerStatus": "R",
                 "TeamNum": 20,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 3
             },
             {
                 "TeamID": 25,
@@ -7745,21 +7745,21 @@
                 "BowlerName": "Weng, Darren",
                 "BowlerNameURLFormated": "weng-darren",
                 "Gender": "M",
-                "TotalPins": 3043,
-                "TotalGames": 20,
-                "Average": 152,
+                "TotalPins": 3391,
+                "TotalGames": 22,
+                "Average": 154,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 199,
                 "HighHandicapSeries": 496,
                 "HighScratchGame": 199,
                 "HighScratchSeries": 496,
-                "MostImproved": -10.85,
+                "MostImproved": -8.86,
                 "BowlerPosition": 8,
                 "BowlerStatus": "R",
                 "TeamNum": 25,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 10,
@@ -7783,7 +7783,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 10,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 23,
@@ -7865,21 +7865,21 @@
                 "BowlerName": "Wilford, Conrad",
                 "BowlerNameURLFormated": "wilford-conrad",
                 "Gender": "M",
-                "TotalPins": 830,
-                "TotalGames": 9,
-                "Average": 92,
+                "TotalPins": 1171,
+                "TotalGames": 12,
+                "Average": 97,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
-                "HighHandicapGame": 114,
-                "HighHandicapSeries": 294,
-                "HighScratchGame": 114,
-                "HighScratchSeries": 294,
-                "MostImproved": -5.78,
+                "HighHandicapGame": 131,
+                "HighHandicapSeries": 341,
+                "HighScratchGame": 131,
+                "HighScratchSeries": 341,
+                "MostImproved": -0.42,
                 "BowlerPosition": 6,
                 "BowlerStatus": "R",
                 "TeamNum": 19,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 1
             },
             {
                 "TeamID": 19,
@@ -7889,8 +7889,8 @@
                 "BowlerName": "Wilford, Kamora",
                 "BowlerNameURLFormated": "wilford-kamora",
                 "Gender": "W",
-                "TotalPins": 1326,
-                "TotalGames": 18,
+                "TotalPins": 1536,
+                "TotalGames": 21,
                 "Average": 73,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
@@ -7898,8 +7898,8 @@
                 "HighHandicapSeries": 249,
                 "HighScratchGame": 103,
                 "HighScratchSeries": 249,
-                "MostImproved": 18.67,
-                "BowlerPosition": 5,
+                "MostImproved": 18.14,
+                "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 19,
                 "EnteringAverage": 0,
@@ -7927,7 +7927,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 32,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 21,
@@ -7961,21 +7961,21 @@
                 "BowlerName": "Williams, Lindbergh",
                 "BowlerNameURLFormated": "williams-lindbergh",
                 "Gender": "M",
-                "TotalPins": 4220,
-                "TotalGames": 24,
-                "Average": 175,
+                "TotalPins": 4702,
+                "TotalGames": 27,
+                "Average": 174,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 234,
                 "HighHandicapSeries": 589,
                 "HighScratchGame": 234,
                 "HighScratchSeries": 589,
-                "MostImproved": 27.83,
+                "MostImproved": 26.15,
                 "BowlerPosition": 10,
                 "BowlerStatus": "R",
                 "TeamNum": 20,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 3
             },
             {
                 "TeamID": 19,
@@ -7985,17 +7985,17 @@
                 "BowlerName": "Williamston, Brunsen",
                 "BowlerNameURLFormated": "williamston-brunsen",
                 "Gender": "M",
-                "TotalPins": 1784,
-                "TotalGames": 18,
-                "Average": 99,
+                "TotalPins": 2066,
+                "TotalGames": 21,
+                "Average": 98,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 125,
                 "HighHandicapSeries": 333,
                 "HighScratchGame": 125,
                 "HighScratchSeries": 333,
-                "MostImproved": 8.11,
-                "BowlerPosition": 8,
+                "MostImproved": 7.38,
+                "BowlerPosition": 7,
                 "BowlerStatus": "R",
                 "TeamNum": 19,
                 "EnteringAverage": 0,
@@ -8043,7 +8043,7 @@
                 "HighScratchGame": 152,
                 "HighScratchSeries": 389,
                 "MostImproved": -4.5,
-                "BowlerPosition": 4,
+                "BowlerPosition": 5,
                 "BowlerStatus": "R",
                 "TeamNum": 29,
                 "EnteringAverage": 0,
@@ -8057,21 +8057,21 @@
                 "BowlerName": "Wilson, Jaden",
                 "BowlerNameURLFormated": "wilson-jaden",
                 "Gender": "M",
-                "TotalPins": 855,
-                "TotalGames": 8,
-                "Average": 106,
+                "TotalPins": 1209,
+                "TotalGames": 11,
+                "Average": 109,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 152,
-                "HighHandicapSeries": 348,
+                "HighHandicapSeries": 354,
                 "HighScratchGame": 152,
-                "HighScratchSeries": 348,
-                "MostImproved": 13.88,
-                "BowlerPosition": 9,
+                "HighScratchSeries": 354,
+                "MostImproved": 16.91,
+                "BowlerPosition": 10,
                 "BowlerStatus": "R",
                 "TeamNum": 14,
                 "EnteringAverage": 0,
-                "PointsWonDec": 0
+                "PointsWonDec": 2
             },
             {
                 "TeamID": 14,
@@ -8081,17 +8081,17 @@
                 "BowlerName": "Wilson, Nicholas",
                 "BowlerNameURLFormated": "wilson-nicholas",
                 "Gender": "M",
-                "TotalPins": 836,
-                "TotalGames": 7,
-                "Average": 119,
+                "TotalPins": 1147,
+                "TotalGames": 10,
+                "Average": 114,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 153,
                 "HighHandicapSeries": 380,
                 "HighScratchGame": 153,
                 "HighScratchSeries": 380,
-                "MostImproved": -6.57,
-                "BowlerPosition": 11,
+                "MostImproved": -11.3,
+                "BowlerPosition": 12,
                 "BowlerStatus": "R",
                 "TeamNum": 14,
                 "EnteringAverage": 0,
@@ -8119,7 +8119,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 22,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 29,
@@ -8139,11 +8139,11 @@
                 "HighScratchGame": 125,
                 "HighScratchSeries": 315,
                 "MostImproved": 7.6,
-                "BowlerPosition": 2,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 29,
                 "EnteringAverage": 0,
-                "PointsWonDec": 1
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 11,
@@ -8215,7 +8215,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 33,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 20,
@@ -8225,16 +8225,16 @@
                 "BowlerName": "Woolf, Elisha",
                 "BowlerNameURLFormated": "woolf-elisha",
                 "Gender": "M",
-                "TotalPins": 1268,
-                "TotalGames": 12,
-                "Average": 105,
+                "TotalPins": 1379,
+                "TotalGames": 13,
+                "Average": 106,
                 "ScratchHandicapFlag": false,
                 "HandicapAfterBowling": 0,
                 "HighHandicapGame": 160,
                 "HighHandicapSeries": 295,
                 "HighScratchGame": 160,
                 "HighScratchSeries": 295,
-                "MostImproved": 7.67,
+                "MostImproved": 8.08,
                 "BowlerPosition": 4,
                 "BowlerStatus": "R",
                 "TeamNum": 20,
@@ -8263,7 +8263,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 8,
                 "EnteringAverage": 0,
-                "PointsWonDec": 2
+                "PointsWonDec": 0
             },
             {
                 "TeamID": 3,
@@ -8307,7 +8307,7 @@
                 "HighScratchGame": 192,
                 "HighScratchSeries": 319,
                 "MostImproved": -2.25,
-                "BowlerPosition": 2,
+                "BowlerPosition": 3,
                 "BowlerStatus": "R",
                 "TeamNum": 10,
                 "EnteringAverage": 0,
@@ -8335,7 +8335,7 @@
                 "BowlerStatus": "R",
                 "TeamNum": 16,
                 "EnteringAverage": 0,
-                "PointsWonDec": 3
+                "PointsWonDec": 0
             }
         ],
         "Total": 347,

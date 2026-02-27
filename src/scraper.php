@@ -3,7 +3,9 @@
 class Scraper {
     private $leagueUrl = 'https://www.leaguesecretary.com/bowling-centers/traveling-league/bowling-leagues/2026-baton-rouge-varsity/bowler/list/130575';
     private $apiUrl = 'https://www.leaguesecretary.com/Bowler/BowlerByWeekList_Read';
+    private $historyApiUrl = 'https://www.leaguesecretary.com/Bowler/BowlerHistory_Read';
     private $dataFile = 'data/bowlers.json';
+    private $historyFile = 'data/bowler_history.json';
 
     public function run() {
         echo "Starting scrape...\n";
@@ -43,9 +45,20 @@ class Scraper {
         // 4. Save to JSON file
         if (file_put_contents($this->dataFile, json_encode($outputData, JSON_PRETTY_PRINT))) {
             echo "Data saved to {$this->dataFile}\n";
-            return true;
         } else {
             echo "Error: Failed to save data to file.\n";
+            return false;
+        }
+
+        // 5. Fetch History for all bowlers
+        echo "Fetching history for bowlers...\n";
+        $historyData = $this->fetchAllBowlersHistory($bowlerData['Data'], $params);
+        
+        if (file_put_contents($this->historyFile, json_encode($historyData, JSON_PRETTY_PRINT))) {
+            echo "History saved to {$this->historyFile}\n";
+            return true;
+        } else {
+            echo "Error: Failed to save history data.\n";
             return false;
         }
     }
@@ -158,5 +171,77 @@ class Scraper {
         if ($fixedCount > 0) {
             echo "Fixed team data for $fixedCount bowlers.\n";
         }
+    }
+
+    private function fetchAllBowlersHistory($bowlers, $params) {
+        $allHistory = [];
+        $total = count($bowlers);
+        $count = 0;
+
+        foreach ($bowlers as $bowler) {
+            $count++;
+            $bowlerId = $bowler['BowlerID'];
+            
+            // Basic rate limiting/logging
+            if ($count % 10 == 0) echo "Processed $count / $total bowlers...\n";
+            
+            $history = $this->fetchSingleBowlerHistory($bowlerId, $params);
+            if ($history) {
+                $allHistory[$bowlerId] = $history;
+            }
+            
+            // Be polite
+            usleep(50000); // 50ms
+        }
+        return $allHistory;
+    }
+
+    private function fetchSingleBowlerHistory($bowlerId, $params) {
+        $postData = [
+            'LeagueId' => $params['leagueId'],
+            'Year' => $params['year'],
+            'Season' => $params['season'],
+            'BowlerId' => $bowlerId
+        ];
+
+        $jsonResponse = $this->fetchUrl($this->historyApiUrl, $postData);
+        if (!$jsonResponse) return null;
+
+        $data = json_decode($jsonResponse, true);
+        if (json_last_error() !== JSON_ERROR_NONE || !isset($data['Data'])) {
+            return null;
+        }
+
+        $games = [];
+        foreach ($data['Data'] as $weekData) {
+            $date = $weekData['DateBowled'];
+            $weekNum = $weekData['WeekNum'];
+            
+            // Check games 1 through 6
+            for ($i = 1; $i <= 6; $i++) {
+                $scoreKey = "Score$i";
+                $gameNumKey = "GameNum$i";
+                
+                if (isset($weekData[$scoreKey]) && $weekData[$scoreKey] > 0) {
+                    $games[] = [
+                        'Date' => $date,
+                        'Week' => $weekNum,
+                        'Game' => $weekData[$gameNumKey],
+                        'Score' => $weekData[$scoreKey]
+                    ];
+                }
+            }
+        }
+        
+        // Sort chronologically (should be already, but just in case)
+        usort($games, function($a, $b) {
+            $dateCmp = strcmp($a['Date'], $b['Date']);
+            if ($dateCmp === 0) {
+                return $a['Game'] - $b['Game'];
+            }
+            return $dateCmp;
+        });
+
+        return $games;
     }
 }

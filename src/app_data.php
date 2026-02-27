@@ -17,3 +17,13 @@ function getBowlerData() {
 
     return [];
 }
+
+function getBowlerHistory() {
+    $dataFile = __DIR__ . '/../data/bowler_history.json';
+    if (!file_exists($dataFile)) {
+        return [];
+    }
+    $json = file_get_contents($dataFile);
+    $data = json_decode($json, true);
+    return $data ?: [];
+}

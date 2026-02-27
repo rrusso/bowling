@@ -2,6 +2,7 @@
 require_once __DIR__ . '/src/app_data.php';
 
 $bowlers = getBowlerData();
+$history = getBowlerHistory();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -73,7 +74,7 @@ $bowlers = getBowlerData();
                 </div>
              </div>
              <!-- Search Bar -->
-             <div x-show="currentTab === 'bowlers'" class="relative" x-transition>
+             <div x-show="currentTab === 'bowlers' || currentTab === 'history'" class="relative" x-transition>
                  <input type="text" x-model="searchQuery" placeholder="Search bowlers or schools..."
                         class="w-full bg-gray-100 dark:bg-gray-800 text-black dark:text-white rounded-lg pl-10 pr-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ios-blue transition-all">
                  <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -158,6 +159,31 @@ $bowlers = getBowlerData();
                         <div class="text-right">
                             <div class="text-lg font-bold text-ios-blue" x-text="bowler.Average"></div>
                             <div class="text-[10px] text-gray-400 uppercase tracking-wider">Avg</div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Tab: History -->
+        <div x-show="currentTab === 'history'" class="px-4" x-transition.opacity style="display: none;">
+            <div class="space-y-3 mt-4">
+                <template x-for="(bowler, index) in filteredBowlers" :key="'hist-' + bowler.BowlerID">
+                    <div @click="openHistoryGraph(bowler)" class="flex items-center p-3 bg-white dark:bg-ios-card rounded-xl shadow-sm border border-gray-100 dark:border-ios-separator active:scale-[0.98] transition-transform cursor-pointer">
+                        <!-- Avatar -->
+                        <div class="w-12 h-12 rounded-full bg-gray-100 dark:bg-gray-700 overflow-hidden mr-3 border border-gray-200 dark:border-gray-600">
+                            <img :src="getBowlerImage(bowler.BowlerID)" class="w-full h-full object-cover" loading="lazy" alt="Avatar">
+                        </div>
+
+                        <!-- Info -->
+                        <div class="flex-1 min-w-0">
+                            <h3 class="font-semibold text-black dark:text-white truncate" x-text="cleanName(bowler.BowlerName)"></h3>
+                            <p class="text-xs text-gray-500 truncate" x-text="bowler.TeamName"></p>
+                        </div>
+
+                        <!-- Icon -->
+                        <div class="text-right text-gray-400">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
                         </div>
                     </div>
                 </template>
@@ -295,11 +321,94 @@ $bowlers = getBowlerData();
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
             <span class="text-[10px] font-medium mt-1">Teams</span>
         </button>
+        <button @click="currentTab = 'history'" class="flex flex-col items-center w-16 transition-colors duration-200" :class="currentTab === 'history' ? 'text-ios-blue' : 'text-gray-400 dark:text-gray-500'">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+            <span class="text-[10px] font-medium mt-1">History</span>
+        </button>
         <button @click="currentTab = 'compare'" class="flex flex-col items-center w-16 transition-colors duration-200" :class="currentTab === 'compare' ? 'text-ios-blue' : 'text-gray-400 dark:text-gray-500'">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
             <span class="text-[10px] font-medium mt-1">Compare</span>
         </button>
     </nav>
+
+    <!-- History Graph Modal -->
+    <div x-show="showHistoryModal"
+         class="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm"
+         x-transition.opacity
+         style="display: none;">
+        <div class="bg-white dark:bg-ios-card w-full max-w-lg rounded-2xl shadow-2xl overflow-hidden transform transition-all h-[80vh] flex flex-col"
+             @click.away="showHistoryModal = false"
+             x-transition:enter="transition ease-out duration-300"
+             x-transition:enter-start="opacity-0 scale-90"
+             x-transition:enter-end="opacity-100 scale-100"
+             x-transition:leave="transition ease-in duration-200"
+             x-transition:leave-start="opacity-100 scale-100"
+             x-transition:leave-end="opacity-0 scale-90">
+
+             <!-- Header -->
+             <div class="bg-gray-100 dark:bg-gray-900 p-4 border-b border-gray-200 dark:border-ios-separator flex justify-between items-center shrink-0">
+                 <div>
+                    <h3 class="font-bold text-lg dark:text-white" x-text="selectedHistoryBowler ? cleanName(selectedHistoryBowler.BowlerName) : ''"></h3>
+                    <p class="text-xs text-gray-500" x-text="selectedHistoryBowler ? selectedHistoryBowler.TeamName : ''"></p>
+                 </div>
+                 <button @click="showHistoryModal = false" class="text-gray-500 hover:text-gray-700 dark:hover:text-gray-300">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+             </div>
+
+             <!-- Main Content -->
+             <div class="flex-1 flex flex-col p-4 overflow-hidden">
+
+                <!-- Selected Game Info -->
+                <div class="text-center mb-6 shrink-0 h-24 flex flex-col justify-center">
+                    <template x-if="selectedGame">
+                        <div>
+                            <div class="text-4xl font-black text-ios-blue mb-1" x-text="selectedGame.Score"></div>
+                            <div class="text-sm font-medium text-gray-600 dark:text-gray-300" x-text="formatDate(selectedGame.Date)"></div>
+                            <div class="text-xs text-gray-400 mt-1 uppercase tracking-wide">
+                                Week <span x-text="selectedGame.Week"></span> • Game <span x-text="selectedGame.Game"></span>
+                            </div>
+                        </div>
+                    </template>
+                    <template x-if="!selectedGame && historyData.length === 0">
+                        <div class="text-gray-400">No game history available.</div>
+                    </template>
+                </div>
+
+                <!-- Graph Container -->
+                <div class="flex-1 relative border-l border-b border-gray-200 dark:border-ios-separator pl-1 pb-1">
+                    <!-- Y-Axis Lines (0, 100, 200, 300) -->
+                    <div class="absolute inset-0 flex flex-col justify-between pointer-events-none opacity-20">
+                         <div class="border-t border-gray-400 w-full h-0"></div> <!-- 300 -->
+                         <div class="border-t border-gray-400 w-full h-0"></div> <!-- 200 -->
+                         <div class="border-t border-gray-400 w-full h-0"></div> <!-- 100 -->
+                         <div class="border-t border-gray-400 w-full h-0"></div> <!-- 0 -->
+                    </div>
+
+                    <!-- Scrollable Area -->
+                    <div class="absolute inset-0 overflow-x-auto overflow-y-hidden no-scrollbar flex items-end px-4 space-x-2">
+                         <template x-for="(game, index) in historyData" :key="index">
+                             <div @click="selectedGame = game"
+                                  class="flex-shrink-0 flex flex-col justify-end items-center group cursor-pointer transition-all duration-200 h-full"
+                                  :class="selectedGame === game ? 'opacity-100 scale-105' : 'opacity-70 hover:opacity-90'">
+
+                                 <!-- Bar -->
+                                 <div class="w-6 sm:w-8 rounded-t-md transition-all duration-500 ease-out shadow-sm relative"
+                                      :class="getBarColor(index)"
+                                      :style="`height: ${(Math.min(game.Score, 300) / 300) * 100}%`">
+                                 </div>
+
+                                 <!-- X-Axis Label -->
+                                 <div class="text-[10px] text-gray-400 mt-1 font-mono absolute -bottom-6" x-text="index + 1"></div>
+                             </div>
+                         </template>
+                    </div>
+                </div>
+
+                <div class="text-center mt-6 text-[10px] text-gray-400 uppercase tracking-widest shrink-0">Game Number</div>
+             </div>
+        </div>
+    </div>
 
     <!-- Bowler Modal -->
     <div x-show="selectedBowler"
@@ -524,6 +633,7 @@ $bowlers = getBowlerData();
             Alpine.data('app', () => ({
                 currentTab: 'bowlers',
                 bowlers: <?php echo json_encode($bowlers); ?>,
+                history: <?php echo json_encode($history); ?>,
                 selectedBowler: null,
                 searchQuery: '',
 
@@ -536,6 +646,13 @@ $bowlers = getBowlerData();
                 compareTeamB: '',
                 comparisonRow: null,
                 showComparisonModal: false,
+
+                // History Tab
+                showHistoryModal: false,
+                selectedHistoryBowler: null,
+                historyData: [],
+                selectedGame: null,
+                barColors: ['bg-ios-blue', 'bg-ios-green', 'bg-ios-red', 'bg-ios-gold', 'bg-ios-bronze', 'bg-purple-500', 'bg-pink-500', 'bg-indigo-500'],
 
                 init() {
                     // Pre-sort bowlers by Average DESC
@@ -630,6 +747,28 @@ $bowlers = getBowlerData();
                     } else if (row.b) {
                         this.openBowler(row.b);
                     }
+                },
+
+                openHistoryGraph(bowler) {
+                    this.selectedHistoryBowler = bowler;
+                    this.historyData = this.history[bowler.BowlerID] || [];
+                    // Select the last game by default if available
+                    if (this.historyData.length > 0) {
+                        this.selectedGame = this.historyData[this.historyData.length - 1];
+                    } else {
+                        this.selectedGame = null;
+                    }
+                    this.showHistoryModal = true;
+                },
+
+                getBarColor(index) {
+                    return this.barColors[index % this.barColors.length];
+                },
+
+                formatDate(dateString) {
+                    if (!dateString) return '';
+                    const date = new Date(dateString);
+                    return date.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
                 },
 
                 getDiff(val1, val2) {
